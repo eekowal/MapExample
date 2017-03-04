@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "527105842132",
+    "firebase_url": "https://safetymap-a90dc.firebaseio.com",
+    "project_id": "safetymap-a90dc",
+    "storage_bucket": "safetymap-a90dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527105842132:android:b4d494fa6112eb3a",
+        "android_client_info": {
+          "package_name": "umd.project.safetymapexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527105842132-3q3dn7san5dgs63l8b2t0h49sjfp9bmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "umd.project.safetymapexample",
+            "certificate_hash": "87c0dcfa7593f86cb533667ca639e6ec711bd1b1"
+          }
+        },
+        {
+          "client_id": "527105842132-6f4018mkfkjnl47gi2efqmh8if2jf467.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB57P2jk1yzE62lqNgxdL-5bgoZgCPX_2Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527105842132-6f4018mkfkjnl47gi2efqmh8if2jf467.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
