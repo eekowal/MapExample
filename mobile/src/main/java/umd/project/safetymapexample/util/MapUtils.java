@@ -26,16 +26,14 @@ public class MapUtils {
         }
     }
 
-    public static void addClusteredMarkers(GoogleMap map, List<LatLng> list){
-
-    }
-
-    public static TileOverlay addHeatMap(GoogleMap map, TileProvider provider, List<LatLng> list) {
-        provider = new HeatmapTileProvider.Builder()
+    public static TileProvider addHeatMap(GoogleMap map, List<LatLng> list) {
+        TileProvider provider = new HeatmapTileProvider.Builder()
                 .data(list)
                 .build();
 
-        return map.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+        map.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+
+        return provider;
     }
 
     public static TileOverlay addWeightedHeatMap(GoogleMap map, TileProvider provider, List<LatLng> list) {

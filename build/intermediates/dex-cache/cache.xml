@@ -3,489 +3,75 @@
 
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_c13fdcbdef6f2d22e3450c9c0d70e3a914958519/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_20a041c1f3883926c09475abc8301135021d35cc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_d4f112f7a9fd443536a8577fd4f41e8bcfac2270/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.0.1_25f2566de0b79bea544d9b26349f4ecace8132cf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.5/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.maps.android-android-maps-utils-0.5_0a9c68aeeea111de793bd9eb5f9e92f2dab9db49/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_3f59fd9bebd9fdd247c692534fa6997d503303ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_69197772799ace55957cb1db08893e89f09006f9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_1993a17bbf41ec68bdc394acd7e3b674ed9f9d46/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_1a547d37a1a680ffeb6e2aa486c0d659e079e3ae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_b47386165d63e11045b9b5516b04a75f802d0ccb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_ffb8c6fcc474bf3f4cfa7a25c0a8785ac8e86497/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_4defca80e9290f718484c4879119c0b4df53ef39/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_84e2bc50c9d49f86d254a09ed1971655a8d232ff/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_c9ce895794934a58a635dac95f6554e849ed3ca2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_dc84c8a97af2869ba6250eebddaa3ff66dde0c4e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_7a01dd7fcee5b7d810b594035c61bc45a6282d81/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_6def0a81dff79587be1d48f08dedcf7eb5abbc2c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_c0369682512290eef1464d7146b985deebaa5759/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_64aeaeaba5f5a015b1213b3950b6da0761e7cbb4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_0d58ff96a216460096325cb7c289d8c65c9ca050/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/9436a57bcace6873c9dce67bcabf3f91fd4e6c2b/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_777aa635e19cdb31ae8785c27732188ff31e8512/classes.dex" />
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7579c45767df05d76abd34c82e53509a29e6c166/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_ad524abfa1c363785cf164fcdf0c04d39cafe2c2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_88e8843ff8060652fed94103e6c008d079523f22/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_2a9cf5d09f52e9841ffad41e9e91b444452e9cf2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_de040681eda30da895f0009db220bcc649561fc5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_b3263cc5510be4daba5f07bf22df1643d15ff42d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_748f990fca9717cac23f3b9c9f494e9ec95f14e7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_01d7d8264023a6ed31ff68c9f16f65dcbed21e2e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.1_004300aeb290d0f4d79a8e1f91ad22d9bfd3b231/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_c4fb13525b8dee434230e2c8da583031fc780523/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_f792adf5c718e5bb95fca4207c7dc6eba3c2a5ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_e78a7b19efd5ca8dfb34ef55ac73a4eeba2b1116/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/bc0f8380dceda773ccbb0cece17a5a7ea9fdc135/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a48dc0b148059764d32500be558702d5ff932058">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_65eef3962041d9b84c4398a3572f8392e9ec21b3/classes.dex" />
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a3c62cc7e9d05295bb113bf2aab6e461ef96207f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_eafbab6bab2edc5baeb13d2dd0cbf9807e4e6da6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_a5352e14994cd13a6262ffe1b05d555a5b62a0d2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_37931a48c20c435f87eb4318ea2cba994062220d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_f2c6bddf8252247ada0df74657cd3e5877964052/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_a3d4369b608ca832679f592da61519c173858868/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_22c5f3d16646a90189af7ca5e6bea98655cef0ed/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_2237ae5318d07521569cf1e72a12a9686259c9a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/b233ffe443223ef1f286df4f76081fdfc53c1e25/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_7e04c4c8ce52c920bd5308f3825f6ad2481f3f07/classes.dex" />
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f23a107260cd40f31f39a2d79ec33819dde7be68/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/d5380bfd906370df74ec4bfd2e3069794a20c9b7/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_b9cc234d61230e98760d82a757c9a8657cf770dc/classes.dex" />
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_276774343448cdbdeb499881f235312539c3d617/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/3ceb4ea4fa70c6c2dd133e9bf058a25d6fbecfa8/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1d193729baf37df3d902a423291423a0df7e3779">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_7208c6b3569b5da8fcdf1f2dd62bffe1f6fa1921/classes.dex" />
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d527321b54aed1a96af8c0e52256803a6363032/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/26c15bbec5706bad9e50a98286b5e6e11533eaf5/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_594f5bfb369848cd7f71d8510d6a22f0fc206f83/classes.dex" />
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03261be21ac0c89a49dd0b46ad579d3a398f50fa/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/50ba408009fba1c76d682affe3e7310137ed28e6/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_22bc45eb081f73dd09d9819e695e62dbe39a7ccc/classes.dex" />
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_666bf0f6e4b0e0fd65d66e480046803277f2b0d5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_d51320e894a74acff20181a6168b8238415078ff/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_18ce7178974cd7ae397b6529de73ca6a718eef7e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_11de420398515d58c9683f0dff2efc0e91798993/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_fe4ca64976db2c7484c34d4b1afe69e8f65976d7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_f5573078bccca72c1f0dd6bca74efe468418f1af/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_410469a7024c63338c04831efbcff1b0b9417eda/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/ca01386e106159ba3b5077cd331c0d9d47d3ab78/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_95c6e6cf7e61419459c2e466b0eb9699f7bb7e6f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_fd078d7e63492f04f9cf9992dde38885ab05d51e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_e0fb5f4638869b56cf59a4c5af3ab1656dd51217/classes.dex" />
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_48c36b1aa4f8d106b6bbe61b415420ae316f27a5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -498,102 +84,516 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/77cf4cd492222392519918bafed219f1c773b4a7/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_eea8b7cbea189eab700c69eeb2da2ec623c7d91b/classes.dex" />
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_30574f7fb0c005d18d76686c7203a37e8c2918d6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/8eff9e976f01896541a6c2b88c55427db0f0df0e/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_85e14c1fd24aa8c4b337856d4cb47e8a4121333e/classes.dex" />
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_412fd624f4912181c2ae2fcd0145e26c52d212bd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_28a11bab66e690ead96ff016bd89eb94099f973e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/40fa0700a5585f1d670f27d157739a073a89e319/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="44a694d4095be84c2888764b1f7256b385c030ad">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_437d7679cf69f52efa60ad3fa45b89b285fd4ae8/classes.dex" />
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69be0f88f29c0d7836dc671963bdd297700a95e5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/9189eb68f2ba029fd076e2fbf3284046db1839f8/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_60856dbbe7899fce8f904d90df398ff97ed2394b/classes.dex" />
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_56b73d8f101903cdfc441d9162f8be7ff70df448/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/8453c33136e7f263724815159d0f19427ba4c424/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_068d30fcd7de7e083f12618806a82bd9e760f773/classes.dex" />
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d140a9b21001292ea2d4e861a383c3b28f30c961/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/2e3bb8acdc3d532488e58a633a8b6fdaacf611ae/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3c5786665dfeed30f523d1d4613e599c7261dca5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/8bd3cc7e89e23d62c1da753d9f815bc735d5aac8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3a899919674b91ccacf67b8cca5cc906683e21c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/6823433ff470734e112bb743ecf4812bcff3cc02/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66aadf9167127decce7ca0e965a16d4fdeea26bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/74f65ddcebc828fda0ed57a3c17df678e9c8b68f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dd147256f1bbae13f2d059bcea94686b7e81ef30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/5af470e916c2f3f4529b8c8f4ae5cddac82e86a1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7025aea3925f7af45d8a5292eb707e09ae4ed2b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/f983ecb96bcc5877953c01b2b6705ef0d0fda0ce/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_792d2d83839b1cfbffdad6b02abf97976b99ecf6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/b35b4c4a8e06fc715e9a291ae17cf963ea2be9b1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0f42bd59c40f488454e06b74d47c16ea3f87b0d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/725901e39cf7c9c271060b10a0e35fc4e99212de/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_84ac515cb83c609cd3e58b5c67de1bcc93141273/classes.dex" />
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f5caf8887a742b46a1ebc0b37ff2e33c29eae71b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/54ade6f6fda83053a1c90ac1a6db8caab491c954/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec83cc11f735a97e5401b9eff76d3234860d0069/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/90b1b197c6fef93500be231dacdc06bfe98414b6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cf97b046493e718d034df75f9464d4542e9617dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/e15716a328176fa48f24f5a523b24f12f83a14f4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_76fb2ab0ef32432f4e297b54c59537fb0bf5337b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/b03807a668f4e342c0b85ebd1be524487f38b5d9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_938da24ecf17ac5671125b3db285fab85f316d0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/fc7cdc2575fb2308f29170bbc2f16a14159b9c7a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4ed1bb8f222c4dc06f48ede6b194c0c237b4485/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/40dd9692dc58181612ce969a81af86b50a589fbd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_642c7be1370aae055760c6c2ebb2aedb3310b0cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/b1d98ee18b388df771a93a8895c8cb627c227d49/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c4f35413a373e1da97582cd37f044b95abc459ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/37d5925fca7acd25f6527f4249770672211fbe6a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c482f07162c2839a5116182dd50101d3f3fad873/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/b441e17980354753ad70d823c2cda49e49ebc4d4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_74b6e03c84e8e9a8a48e5ea403c8201fe914c85d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/8000984f0352d747767ce2554b153d262cb87cbe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3bfcd7e2e43c65239f274f056daab33a224619a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/d4cea29cb11e59ed2e812cf366c40a3ec8e77b3b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3e4a72edca75cdc17784c312f961aa948418bdaf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/d4127f5b6a1724674e7d3f6b97c9306bfbbb2dd9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0aec8569bbf36a869b79e007a5c2b726ce4857dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/ac7bd5c84ae1d592aec3abd5ca03fef895bba15a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_663062017b7d33dc745c3cf0d771774dc217a8f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/327349f161b8d04385f050a775a9cc4925effd95/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b7b6314972b4943db9343b4a87471eed557caf54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/b49d11aaf860f05f016976943e7fb36bed6c231a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_470087f9632b0e5361c38a2f9c791a639ccb5afc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/4439d21206a18d8f2c5661d3e05d8de6298e500c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_40d85b29e8765d4796c433e9b6f521b85959fc5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/b21623a51e68f1ed8862e8a84fb57ad837576f01/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_030c34e19a5aca6781909f1c5c097be5e8cad29b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/93c37614af58d28b45e84a57a1f10831b72d05cc/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_40f3bdd748a96e648473ff1ea439f0a1a928fe42/classes.dex" />
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_76f282a1fb2c77b72722b6852f2a4b265c852793/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/369d4b8821b9b0e65211f4f6ab0a5049bcc3a193/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_abede94df1c7d6c90ad1c887ddc08802ae95db8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/7c1420649d19c6d765bbfe600624cd819e86f03a/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_5becc1452804d0bad61098fb3e4d968d417bcb85/classes.dex" />
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ceae401bd1f9e4ef0e03da49a3b5a1fbb9663df9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/c28532ffc2ebaaa94b9b95c5bc52033ae2e8a280/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_8a8665a814727b12fcba25ca1757db3717d45a80/classes.dex" />
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9b6d8fb65d4aa8b8d255c2decdb888ca759a16a9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jar="/Users/emilyk/.android/build-cache/49403526d3cff61a9bbe21a5ecc6f5ff03b971a4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_978fbe5d762e9e551295fa3f76ca63b62eeacfcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/15cb75221c97e270596c220374ccae8bd7fb0dd1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2e7daa50d10bb577a816ada150a6018b2af36e26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/8643b1c4c263c1b92be9834ff7422ece58eeae80/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_653d8c57e553d917870809a62745bb9dcd49fb35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/863f72975eaf95d2bf72b73bd9b4aaff09897a9d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_19e560453d5ca02590755e2946250ead1e8c7009/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/ea2abd69cdab3bdea969baa33a144d90fb03d021/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_07362ed03cc41f222b94cbe4b956d5aec060842a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/4e0afe1287ba4f404b188ddc7f020fc7f0383cde/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e62468e337a5f1ecc7af448cfcf51a8f1652bf17/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/7d9e8541581612d24be2b19c28d296f1fb3475e9/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_7ea507c60055745acb32534ce95f44fab4055934/classes.dex" />
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_87df9e2745353c51b5678c173a95b7b947265489/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/58ebd4fcb61afb255ee1992b0ded9c82c51bda42/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0908ee76e42e255f4f630c3acf467ece076029a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/a6121e4109a697db3c8bff8555bb212cc3fda813/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_090114f4d069fd80ec81644dec7e41f42ee12669/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/2bf1cd00e19e7c95fad8c56b18520773613f8760/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9f2220f2a2d7df1022068694fdcd5051812821de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/92ce307bcdd7d1d00bc1cb0365f5fbae0c88f01e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5ddcd6c319e635d457a3f2fc4c9dbfe2e88caaf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/c79a410ba7a60fb4182ac3640e8b3af54d37a008/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b7fe2369288662281cdfcc62d884d3dde552d48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/a6121e4109a697db3c8bff8555bb212cc3fda813/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03f29665aafbd87e1b7d5cc9e2df544b145358c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/60c79c27555631ed64091ffbd13ff9e57f6d2218/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5bf4c60c2fe81e8817b2ed53bbcedb833e0643f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/5c47f64639999f89da0e6bb365c9adc9c2799bf5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9c2af79084a923b9244b865a8da79eda5c194b72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/fb8dbbbeac2d911241587f3d59fff1ed13d4e42c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_363c2eea476a33846fba30d4618e09c07e502229/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/573590e952b287ca17b323915910b99cbd20913c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c57b89ca343955798fac9a39465ddf6dc2d83cf4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/ea77244acb9c28eb90abc3d5bfbf44fd7c062e0d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c80015a7a78108fda2e3a5c0f4088a9fc159530/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/76c44cc2ef16e0eabc9d41bd4778ee10ba71074b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd48094dbd5d151c29db1ce737f61936e6b8d7c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/6647b82d64557f1e0fbb0b4e1c4487dfe980db97/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7099c77fc3296502f591f63fd27f78bd76baa0a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/2ac25b697b59038b1d912e889bc441d007391b5d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c09f1a7348c59569350cff3b5e00a14e3f1b0453/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/1f3c04ac1673b5ccc1ad6bed5411fc2307f3c253/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d4b5499796f451e0b810c354e65524582cb6ab92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/emilyk/.android/build-cache/b36548327df35ec7037351340b7286ecb65bfa7f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/emilyk/Desktop/cmsc818/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7f57b418874256da0329414750a66357349abc8/classes.dex" />
     </item>
 
 </items>

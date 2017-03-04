@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/settings"
-        android:title="Settings" />
+    <item android:id="@+id/heatmap"
+        android:title="Heatmap" />
+    <item android:id="@+id/clustered_markers"
+        android:title="Clustered markers" />
+    <item android:id="@+id/markers"
+        android:title="Markers" />
+    <item android:id="@+id/shapes"
+        android:title="Shapes" />
 </menu>

@@ -4,10 +4,14 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.GoogleMap;
@@ -15,6 +19,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 
 import umd.project.safetymapexample.R;
 import umd.project.safetymapexample.util.PermissionsUtils;
+
 
 
 public class MapActivity extends AppCompatActivity implements OnMapReadyCallback,
@@ -34,21 +39,27 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_heat_maps);
-        mMapFragment = (MapFragment) getFragmentManager().findFragmentByTag("map");
+        setContentView(R.layout.activity_map);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            // reveal a sheet or something ?
+
+            }
+        });
+
+        mMapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.fragment_map);
     }
 
     @Override
-    protected void onStart() {
-        super.onStart();
-
-        if (mMapFragment == null) {
-            mMapFragment = new MapFragment();
-            getFragmentManager().beginTransaction()
-                    .add(R.id.fragment_container_map, mMapFragment, "map")
-                    .commit();
-        }
-
+    protected void onResume() {
+        super.onResume();
     }
 
     @Override
@@ -105,4 +116,19 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         return super.onCreateOptionsMenu(menu);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()){
+            case R.id.heatmap:
+                mMapFragment.displayAsHeatMap();
+                break;
+            case R.id.clustered_markers:
+                break;
+            case R.id.markers:
+                mMapFragment.displayAsMarkers();
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }

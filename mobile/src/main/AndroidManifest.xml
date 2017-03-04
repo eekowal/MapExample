@@ -28,12 +28,10 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".map.SettingsActivity"
-            android:label="@string/title_activity_settings" />
+
         <activity
             android:name=".map.MapActivity"
-            android:label="@string/title_activity_heat_maps">
+            android:label="Map Demo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

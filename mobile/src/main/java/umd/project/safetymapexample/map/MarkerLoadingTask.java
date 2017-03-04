@@ -27,7 +27,7 @@ public class MarkerLoadingTask extends AsyncTaskLoader<List<LatLng>> {
     @Override
     public List<LatLng> loadInBackground() {
         ArrayList<LatLng> list = new ArrayList<LatLng>();
-        InputStream inputStream = getContext().getResources().openRawResource(R.raw.prince_georges);
+        InputStream inputStream = getContext().getResources().openRawResource(R.raw.prince_georges_small);
         String json = new Scanner(inputStream).useDelimiter("\\A").next();
         try {
             JSONObject object = new JSONObject(json);

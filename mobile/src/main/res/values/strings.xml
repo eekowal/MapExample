@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SafetyMapExample</string>
+    <string name="app_name">Map Demo</string>
     <string name="title_activity_maps">Example: Safety Map</string>
     <string name="title_activity_settings">Settings</string>
 
