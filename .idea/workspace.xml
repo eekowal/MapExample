@@ -6,210 +6,34 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db540cb0-7d57-48c6-aaa7-6a23bf2375ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_maps_utils_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_0_beta4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_0_beta4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_appindexing_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_auth_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_common_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_config_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_core_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_crash_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_database_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_database_connection_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_iid_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_messaging_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_storage_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_storage_common_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_24_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/palette_v7_24_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/percent_23_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_impl_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_base_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_awareness_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_cast_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_cast_framework_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_clearcut_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_drive_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_games_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gass_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_identity_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_iid_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_instantapps_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_location_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_places_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_plus_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tagmanager_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tagmanager_api_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tagmanager_v4_impl_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_vision_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_24_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/wearable_2_0_0_beta2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/drawable/ic_close_black_24dp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/drawable/ic_dashboard_black_24dp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/drawable/ic_home_black_24dp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/dialog_search.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/menu/navigation.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/dimens.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-22-53-50-087.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-22-56-15-227.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-00-33-157.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-02-35-697.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-03-52-928.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-05-56-909.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-07-18-152.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-18-20-002.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-21-26-270.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-24-59-989.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-28-56-071.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-31-37-782.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-55-40-432.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-55-52-137.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-56-43-604.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-56-52-792.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-03-23-57-15-325.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-02-21-855.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-02-25-957.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-05-19-453.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-06-25-194.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-10-43-197.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-15-39-652.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-17-05-233.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-27-15-715.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-28-22-013.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-30-32-414.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-32-13-254.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-35-59-314.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-37-41-362.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-39-07-737.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-54-39-636.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-55-15-292.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-00-59-17-837.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-01-04-212.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-05-38-454.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-07-13-294.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-09-23-841.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-11-02-547.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-13-06-450.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-17-30-875.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-18-50-718.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-21-09-389.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-22-05-798.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-23-20-228.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-24-44-818.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-26-38-921.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-35-26-848.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-40-48-452.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-41-29-252.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-43-22-387.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-58-10-475.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-01-59-14-247.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-02-05-26-859.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-02-07-55-920.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-02-09-55-331.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-02-12-02-293.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-02-15-33-971.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-02-42-47-048.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-03-00-45-455.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-03-01-20-707.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-03-02-45-208.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-03-25-44-720.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-03-27-02-863.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-03-29-46-819.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-19-34-415.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-21-16-480.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-22-12-235.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-29-32-163.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-32-26-285.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-33-23-139.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-34-03-796.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-34-46-296.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-36-41-924.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-50-39-653.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-11-52-32-177.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-12-27-05-832.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-12-27-59-594.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-05-22-940.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-09-41-536.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-11-55-133.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-14-41-267.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-16-46-955.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-19-28-298.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-20-32-330.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-22-37-087.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-24-13-689.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-27-40-232.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-32-54-271.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-39-26-117.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-45-00-274.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-04-13-49-11-875.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SafetyMapExample.iml" afterPath="$PROJECT_DIR$/SafetyMapExample.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build.gradle" afterPath="$PROJECT_DIR$/mobile/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/mobile.iml" afterPath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/LocationDetailsFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/drawable/ic_check_black_24dp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map_bottomsheet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/fragment_location_details.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/dialog_search.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/FirebaseMarkerLoadingTask.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/FirebaseMarkerLoadingTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/wear.iml" afterPath="$PROJECT_DIR$/wear/wear.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/styles.xml" />
     </list>
     <ignored path="SafetyMapExample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -241,17 +65,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_map.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml">
+      <file leaf-file-name="activity_settings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="2055">
+              <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
               <folding>
-                <marker date="1488684579000" expanded="true" signature="485:640" ph="..." />
-                <marker date="1488684579000" expanded="true" signature="1445:1474" ph="&quot;settings&quot;" />
+                <marker date="1488733536000" expanded="true" signature="311:340" ph="&quot;settings&quot;" />
+                <marker date="1488733536000" expanded="true" signature="6140:6169" ph="&quot;settings&quot;" />
               </folding>
             </state>
           </provider>
@@ -3447,18 +3271,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/dialog_search.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/FirebaseMarkerLoadingTask.java" />
-        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java" />
-        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map_bottomsheet.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="23" />
+    <option name="x" value="-1" />
+    <option name="y" value="323" />
     <option name="width" value="1418" />
     <option name="height" value="784" />
   </component>
@@ -3525,7 +3354,25 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafetyMapExample" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3630,8 +3477,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bin" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="device.picker.selection" value="Nexus_5_API_24" />
-    <property name="VectorAssetImportPath" value="$PROJECT_DIR$/.." />
+    <property name="device.picker.selection" value="HT5ASJT00314" />
+    <property name="VectorAssetImportPath" value="$USER_HOME$" />
+    <property name="OverrideImplement.combined" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -3639,6 +3487,9 @@
     </key>
     <key name="android.template.parentActivityClass">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mobile/src/main/res/layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.MapActivity">
@@ -4069,16 +3920,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1418" height="784" extended-state="0" />
+    <frame x="-1" y="323" width="1418" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32677165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5120846" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.511811" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844576" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -4133,22 +3984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MarkerLoadingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <marker date="1488604236000" expanded="false" signature="50:397" ph="..." />
-            <marker date="1488604236000" expanded="false" signature="518:528" ph=" { " />
-            <marker date="1488604236000" expanded="false" signature="543:549" ph=" }" />
-            <marker date="1488604236000" expanded="true" signature="608:1296" ph="{...}" />
-            <marker date="1488604236000" expanded="false" signature="656:664" ph="&lt;~&gt;" />
-            <marker date="1488604236000" expanded="true" signature="1362:1673" ph="{...}" />
-            <marker date="1488604236000" expanded="true" signature="1675:2091" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/MapUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -4197,37 +4032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/dialog_search.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-1699">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <marker date="1488682933000" expanded="true" signature="146:5435" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="255:284" ph="&quot;settings&quot;" />
-            <marker date="1488682933000" expanded="true" signature="306:5383" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="452:735" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="755:1018" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="1040:1740" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="1351:1546" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="1573:1717" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="1760:2077" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="2103:3043" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="2397:2648" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="2707:3016" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="3063:3385" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="3407:4539" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="3671:3818" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="3845:3991" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="4018:4174" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="4201:4346" ph="..." />
-            <marker date="1488682933000" expanded="true" signature="4373:4517" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/navigation.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -4243,87 +4047,6 @@
             <marker date="1488682395000" expanded="false" signature="393:418" ph="&quot;Dashboard&quot;" />
             <marker date="1488682395000" expanded="true" signature="432:598" ph="..." />
             <marker date="1488682395000" expanded="false" signature="567:596" ph="&quot;Notifications&quot;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding>
-            <marker date="1488682502000" expanded="false" signature="46:93" ph="..." />
-            <marker date="1488682502000" expanded="true" signature="214:313" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488682502000" expanded="true" signature="107:1744" ph="..." />
-            <marker date="1488682502000" expanded="true" signature="161:390" ph="..." />
-            <marker date="1488682502000" expanded="true" signature="490:1731" ph="..." />
-            <marker date="1488682502000" expanded="false" signature="591:609" ph="&quot;Map Demo&quot;" />
-            <marker date="1488682502000" expanded="true" signature="699:1199" ph="..." />
-            <marker date="1488682502000" expanded="true" signature="1221:1333" ph="..." />
-            <marker date="1488682502000" expanded="false" signature="1306:1331" ph="&quot;AIzaSyC98xoaB864VWVyBJVbgy_dmrbewuw4vtk&quot;" />
-            <marker date="1488682502000" expanded="true" signature="1353:1658" ph="..." />
-            <marker date="1488682502000" expanded="true" signature="1462:1638" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="120" column="2" selection-start-line="120" selection-start-column="2" selection-end-line="120" selection-end-column="2" />
-          <folding>
-            <marker date="1488684542000" expanded="true" signature="50:726" ph="..." />
-            <marker date="1488684542000" expanded="true" signature="1270:2331" ph="{...}" />
-            <marker date="1488684542000" expanded="false" signature="1484:1576" ph="(v) → {" />
-            <marker date="1488684542000" expanded="true" signature="1704:1743" ph="&quot;settings&quot;" />
-            <marker date="1488684542000" expanded="false" signature="2212:2227" ph="}" />
-            <marker date="1488684542000" expanded="false" signature="2376:2387" ph=" { " />
-            <marker date="1488684542000" expanded="false" signature="2404:2410" ph=" }" />
-            <marker date="1488684542000" expanded="true" signature="2474:2542" ph="{...}" />
-            <marker date="1488684542000" expanded="true" signature="2548:2729" ph="/**...*/" />
-            <marker date="1488684542000" expanded="true" signature="2772:3267" ph="{...}" />
-            <marker date="1488684542000" expanded="true" signature="3507:4183" ph="{...}" />
-            <marker date="1488684542000" expanded="true" signature="4185:4894" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-          <folding>
-            <marker date="1488683909000" expanded="true" signature="50:1267" ph="..." />
-            <marker date="1488683909000" expanded="true" signature="1887:1953" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="2017:2247" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="2280:3787" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="2561:3770" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="2656:3547" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="2889:3519" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="3005:3175" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="3302:3369" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="3476:3500" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="3636:3759" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="3833:4226" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="4256:4327" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="4378:4605" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="4635:4817" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="4847:5035" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="5093:5101" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="5150:5384" ph="{...}" />
-            <marker date="1488683909000" expanded="true" signature="5440:5448" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -4357,16 +4080,230 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable/ic_sync_black_24dp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488089389000" expanded="true" signature="66:513" ph="..." />
+            <marker date="1488089389000" expanded="true" signature="195:503" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MarkerLoadingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <marker date="1488604236000" expanded="false" signature="50:397" ph="..." />
+            <marker date="1488604236000" expanded="false" signature="518:528" ph=" { " />
+            <marker date="1488604236000" expanded="false" signature="543:549" ph=" }" />
+            <marker date="1488604236000" expanded="true" signature="608:1296" ph="{...}" />
+            <marker date="1488604236000" expanded="false" signature="656:664" ph="&lt;~&gt;" />
+            <marker date="1488604236000" expanded="true" signature="1362:1673" ph="{...}" />
+            <marker date="1488604236000" expanded="true" signature="1675:2091" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding>
+            <marker date="1488692288000" expanded="true" signature="46:311" ph="..." />
+            <marker date="1488692288000" expanded="true" signature="432:1190" ph="{...}" />
+            <marker date="1488692288000" expanded="false" signature="650:742" ph="(v) → {" />
+            <marker date="1488692288000" expanded="false" signature="867:882" ph="}" />
+            <marker date="1488692288000" expanded="false" signature="995:1087" ph="(v) → {" />
+            <marker date="1488692288000" expanded="false" signature="1166:1181" ph="}" />
+            <marker date="1488692288000" expanded="true" signature="1224:1885" ph="{...}" />
+            <marker date="1488692288000" expanded="true" signature="1958:2103" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/LocationDetailsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <marker date="1488694371000" expanded="false" signature="47:187" ph="..." />
+            <marker date="1488694371000" expanded="true" signature="190:236" ph="/**...*/" />
+            <marker date="1488694371000" expanded="true" signature="332:384" ph="{...}" />
+            <marker date="1488694371000" expanded="true" signature="532:674" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/fragment_location_details.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <marker date="1488694352000" expanded="true" signature="71:499" ph="..." />
+            <marker date="1488694352000" expanded="true" signature="340:483" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="470" selection-start-line="4" selection-start-column="470" selection-end-line="4" selection-end-column="470" />
+          <folding>
+            <marker date="1488696517000" expanded="true" signature="10:3584" ph="..." />
+            <marker date="1488696517000" expanded="true" signature="955:1044" ph="..." />
+            <marker date="1488696517000" expanded="true" signature="1314:1424" ph="..." />
+            <marker date="1488696517000" expanded="true" signature="1475:1565" ph="..." />
+            <marker date="1488696517000" expanded="true" signature="1660:1665" ph="..." />
+            <marker date="1488696517000" expanded="true" signature="1801:1998" ph="..." />
+            <marker date="1488696517000" expanded="true" signature="2051:2217" ph="..." />
+            <marker date="1488696517000" expanded="true" signature="2268:2375" ph="..." />
+            <marker date="1488696517000" expanded="true" signature="2431:2520" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="55" />
+          <folding>
+            <marker date="1488684636000" expanded="true" signature="107:1128" ph="..." />
+            <marker date="1488684636000" expanded="true" signature="300:498" ph="..." />
+            <marker date="1488684636000" expanded="true" signature="556:1076" ph="..." />
+            <marker date="1488684636000" expanded="true" signature="830:859" ph="&quot;settings&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_map_bottomsheet.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+          <folding>
+            <marker date="1488732074000" expanded="true" signature="107:3044" ph="..." />
+            <marker date="1488732074000" expanded="true" signature="301:499" ph="..." />
+            <marker date="1488732074000" expanded="true" signature="520:2339" ph="..." />
+            <marker date="1488732074000" expanded="true" signature="900:1178" ph="..." />
+            <marker date="1488732074000" expanded="true" signature="1198:1558" ph="..." />
+            <marker date="1488732074000" expanded="false" signature="1468:1483" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
+            <marker date="1488732074000" expanded="true" signature="1578:1938" ph="..." />
+            <marker date="1488732074000" expanded="true" signature="1848:1863" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
+            <marker date="1488732074000" expanded="true" signature="1958:2318" ph="..." />
+            <marker date="1488732074000" expanded="true" signature="2228:2243" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
+            <marker date="1488732074000" expanded="true" signature="2397:2992" ph="..." />
+            <marker date="1488732074000" expanded="true" signature="2767:2777" ph="&quot;settings&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <marker date="1488731356000" expanded="true" signature="50:967" ph="..." />
+            <marker date="1488731356000" expanded="true" signature="1637:2950" ph="{...}" />
+            <marker date="1488731356000" expanded="false" signature="1862:1954" ph="onClick(v) → {" />
+            <marker date="1488731356000" expanded="true" signature="2082:2121" ph="&quot;settings&quot;" />
+            <marker date="1488731356000" expanded="false" signature="2504:2519" ph="}" />
+            <marker date="1488731356000" expanded="true" signature="2985:3287" ph="{...}" />
+            <marker date="1488731356000" expanded="false" signature="3332:3343" ph=" { " />
+            <marker date="1488731356000" expanded="false" signature="3360:3366" ph=" }" />
+            <marker date="1488731356000" expanded="true" signature="3430:3498" ph="{...}" />
+            <marker date="1488731356000" expanded="true" signature="3542:4037" ph="{...}" />
+            <marker date="1488731356000" expanded="true" signature="4277:4953" ph="{...}" />
+            <marker date="1488731356000" expanded="true" signature="4999:5372" ph="{...}" />
+            <marker date="1488731356000" expanded="true" signature="5421:5542" ph="{...}" />
+            <marker date="1488731356000" expanded="true" signature="5640:6009" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding>
+            <marker date="1488732813000" expanded="true" signature="50:1210" ph="..." />
+            <marker date="1488732813000" expanded="true" signature="1708:1774" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="1838:2068" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="2101:3645" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="2419:3628" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="2514:3405" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="2747:3377" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="2863:3033" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="3160:3227" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="3334:3358" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="3494:3617" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="3691:4084" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="4114:4185" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="4236:4507" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="4537:4759" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="4789:5015" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="5073:5081" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="5148:5234" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="5283:5517" ph="{...}" />
+            <marker date="1488732813000" expanded="true" signature="5573:5581" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1488733311000" expanded="true" signature="107:1781" ph="..." />
+            <marker date="1488733311000" expanded="true" signature="161:390" ph="..." />
+            <marker date="1488733311000" expanded="true" signature="490:1768" ph="..." />
+            <marker date="1488733311000" expanded="false" signature="591:609" ph="&quot;Map Demo&quot;" />
+            <marker date="1488733311000" expanded="true" signature="699:1199" ph="..." />
+            <marker date="1488733311000" expanded="true" signature="1221:1333" ph="..." />
+            <marker date="1488733311000" expanded="false" signature="1306:1331" ph="&quot;AIzaSyC98xoaB864VWVyBJVbgy_dmrbewuw4vtk&quot;" />
+            <marker date="1488733311000" expanded="true" signature="1353:1658" ph="..." />
+            <marker date="1488733311000" expanded="true" signature="1462:1638" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1488733311000" expanded="true" signature="10:735" ph="..." />
+            <marker date="1488733311000" expanded="true" signature="112:379" ph="..." />
+            <marker date="1488733311000" expanded="true" signature="455:722" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="2055">
+          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
           <folding>
-            <marker date="1488684579000" expanded="true" signature="485:640" ph="..." />
-            <marker date="1488684579000" expanded="true" signature="1445:1474" ph="&quot;settings&quot;" />
+            <marker date="1488733536000" expanded="true" signature="311:340" ph="&quot;settings&quot;" />
+            <marker date="1488733536000" expanded="true" signature="6140:6169" ph="&quot;settings&quot;" />
           </folding>
         </state>
       </provider>

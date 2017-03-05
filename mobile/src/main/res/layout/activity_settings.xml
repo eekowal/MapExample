@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:transitionName="@string/settings_transition">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_close_dark" />
+
+        <TextView
+            android:id="@+id/textview_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="26dp"
+            android:paddingLeft="10dp"
+            android:text="Sample locations:"
+            android:textSize="16dp"
+            android:alpha=".54"/>
+
+        <RadioGroup
+            android:id="@+id/location_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textview_location"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp">
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="38.8345, -76.95" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="38.93, -76.883" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textview_types"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location_radiogroup"
+            android:padding="10dp"
+            android:text="Types of crime:"
+            android:textSize="16dp"
+            android:alpha=".54"/>
+
+        <RelativeLayout
+            android:id="@+id/type_checkboxgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_types"
+            android:paddingLeft="16dp">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/appCompatCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Theft"
+                android:alpha=".87"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/appCompatCheckBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/appCompatCheckBox"
+                android:text="All"
+                android:alpha=".87"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textview_display_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/type_checkboxgroup"
+            android:padding="10dp"
+            android:text="Display as:"
+            android:textSize="16dp"
+            android:alpha=".54"/>
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_display_heading"
+            android:paddingLeft="16dp">
+
+            <RadioButton
+                android:id="@+id/heatmap"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:text="Heat Map"
+                android:alpha=".87"/>
+
+            <RadioButton
+                android:id="@+id/markers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Markers"
+                android:alpha=".87"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textview_dev_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/radiogroup"
+            android:padding="10dp"
+            android:text="Development:"
+            android:textSize="16dp"
+            android:alpha=".54"/>
+
+        <Switch
+            android:id="@+id/benchmark_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textview_dev_heading"
+            android:paddingLeft="16dp"
+            android:text="Benchmark"
+            android:alpha=".87"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"
+            android:clickable="true"
+            android:src="@drawable/ic_check_black_24dp"
+            android:transitionName="@string/settings_transition"
+            app:elevation="4dp"
+            app:fabSize="normal" />
+
+        <RadioButton
+            android:id="@+id/clustered_markers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clustered Markers"
+            android:layout_below="@+id/textview_display_heading"
+            android:layout_toEndOf="@+id/radiogroup"
+            android:alpha=".87"/>
+
+        <RadioButton
+            android:id="@+id/paint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/clustered_markers"
+            android:layout_below="@+id/clustered_markers"
+            android:text="Paint"
+            android:alpha=".87"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

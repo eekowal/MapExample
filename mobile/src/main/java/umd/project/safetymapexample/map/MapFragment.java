@@ -10,7 +10,6 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.UiSettings;
-import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.TileOverlay;
@@ -36,10 +35,6 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment
 
     private static final String TAG = MapFragment.class.getSimpleName();
 
-    private static final CameraPosition CURR_LOC_CAMERA = new CameraPosition.Builder()
-            .target(new LatLng(38.9897, 76.9378))
-            .build();
-
     private static final int TOKEN_LOADER_MARKERS = 0;
 
     protected List<LatLng> mList = new ArrayList<>();
@@ -47,6 +42,8 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment
     protected GoogleMap mMap;
     protected TileProvider mProvider;
     protected TileOverlay mOverlay;
+
+    private final double OFFSET=.01;
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -72,6 +69,7 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment
         Log.i(TAG, "loadMapData: ");
         final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
         Query query = databaseReference.child("data").limitToFirst(100);
+        Log.i(TAG, "loadMapData: ");
         query.addListenerForSingleValueEvent(new ValueEventListener() {
 
             @Override
@@ -132,7 +130,8 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment
         Log.i(TAG, "onDataLoaded: ");
         if (list != null) {
             mList = list;
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(list.get(0), 10.0f));
+            LatLng loc = list.get(0);
+            changeCameraLocation(new LatLng(loc.latitude, loc.longitude   + OFFSET), 10.0f);
             addHeatmap(mList);
         }
     }
@@ -141,24 +140,30 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment
         Log.i(TAG, "displayAsHeatMap: ");
         mMap.clear();
         addHeatmap(mList);
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(mList.get(0), 10.0f));
+        LatLng loc = mList.get(0);
+        changeCameraLocation(new LatLng(loc.latitude, loc.longitude   + OFFSET), 10.0f);
     }
 
     void displayAsMarkers() {
         Log.i(TAG, "displayAsMarkers: ");
         mMap.clear();
         addMarkers(mMap, mList);
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(mList.get(0), 10.0f));
+        LatLng loc = mList.get(0);
+        changeCameraLocation(new LatLng(loc.latitude, loc.longitude + OFFSET), 10.0f);
     }
 
     private void addClusteredMarkers(List<LatLng> list) {
 
     }
 
+    public void changeCameraLocation(LatLng location, float zoom){
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(location, zoom));
+    }
+
     private void addHeatmap(List<LatLng> list) {
         mProvider = new HeatmapTileProvider.Builder()
                 .data(list)
-                .radius(50)
+                .radius(20)
                 .build();
 
         mOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
