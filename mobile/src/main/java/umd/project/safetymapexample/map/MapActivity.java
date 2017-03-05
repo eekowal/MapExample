@@ -1,16 +1,14 @@
 package umd.project.safetymapexample.map;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -18,8 +16,8 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 
 import umd.project.safetymapexample.R;
+import umd.project.safetymapexample.SettingsActivity;
 import umd.project.safetymapexample.util.PermissionsUtils;
-
 
 
 public class MapActivity extends AppCompatActivity implements OnMapReadyCallback,
@@ -41,15 +39,20 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-            // reveal a sheet or something ?
+                Intent intent = new Intent(MapActivity.this, SettingsActivity.class);
+                String transitionName = getString(R.string.settings_transition);
+                ActivityOptionsCompat options =
+                        ActivityOptionsCompat.makeSceneTransitionAnimation(MapActivity.this,
+                                fab,   // The view which starts the transition
+                                transitionName    // The transitionName of the view we’re transitioning to
+                        );
+                ActivityCompat.startActivityForResult(MapActivity.this, intent, 0, options.toBundle());
 
             }
         });
@@ -109,26 +112,26 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.map_menu, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId()){
-            case R.id.heatmap:
-                mMapFragment.displayAsHeatMap();
-                break;
-            case R.id.clustered_markers:
-                break;
-            case R.id.markers:
-                mMapFragment.displayAsMarkers();
-                break;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.map_menu, menu);
+//        return super.onCreateOptionsMenu(menu);
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.heatmap:
+//                mMapFragment.displayAsHeatMap();
+//                break;
+//            case R.id.clustered_markers:
+//                break;
+//            case R.id.markers:
+//                mMapFragment.displayAsMarkers();
+//                break;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 }

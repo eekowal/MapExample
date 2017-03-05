@@ -2,47 +2,51 @@ package umd.project.safetymapexample.map;
 
 import android.content.AsyncTaskLoader;
 import android.content.Context;
+import android.os.Looper;
 import android.util.Log;
 
+import com.google.android.gms.maps.model.LatLng;
 import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
 
 import static com.google.android.gms.wearable.DataMap.TAG;
 
 
 public class FirebaseMarkerLoadingTask extends AsyncTaskLoader {
 
+    private DataSnapshot mDataSnapshot;
+
     private final static String DATABASE_URL="https://safetymap-a90dc.firebaseio.com";
 
-    public FirebaseMarkerLoadingTask(Context context) {
+    public FirebaseMarkerLoadingTask(Context context, DataSnapshot dataSnapshot) {
         super(context);
+        mDataSnapshot = dataSnapshot;
     }
 
     @Override
     public Object loadInBackground() {
 
-        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+        Log.i(TAG, "loadInBackground: ");
 
-        Query query = databaseReference.child("safetymap-a90dc").child("data").endAt("1000");
-        query.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                for(DataSnapshot crimeSnapshot : dataSnapshot.getChildren()){
-                    Log.i(TAG, "onDataChange: " + crimeSnapshot.getKey());
-                }
+        ArrayList<LatLng> list = new ArrayList<>();
+
+        for(DataSnapshot crimeSnapshot : mDataSnapshot.getChildren()){
+            ArrayList<String> crime = (ArrayList<String>) crimeSnapshot.getValue();
+
+            double lat = Double.valueOf((String) crime.get(20));
+            double lng = Double.valueOf((String) crime.get(21));
+
+            list.add(new LatLng(lat, lng));
+
+            if(Looper.myLooper() == Looper.getMainLooper()) {
+                Log.i(TAG, "Running on Main thread!");
             }
 
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                databaseError.toException().printStackTrace();
-            }
-        });
+            Log.i(TAG, "Crime " + crimeSnapshot.getKey() + ": " + crime);
+        }
 
-        return query;
+        return list;
     }
 
 
