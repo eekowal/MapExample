@@ -1,28 +1,28 @@
 package umd.project.safetymapexample;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-public class SettingsActivity extends Activity {
+public class SettingsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_settings_activity);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent data = getSettings();
                 setResult(RESULT_OK, data);
-                finish();
+                supportFinishAfterTransition();
 
             }
         });
@@ -32,7 +32,7 @@ public class SettingsActivity extends Activity {
             @Override
             public void onClick(View v) {
                 setResult(RESULT_CANCELED);
-                finish();
+                supportFinishAfterTransition();
             }
         });
 

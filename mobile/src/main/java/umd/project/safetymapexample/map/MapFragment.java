@@ -28,6 +28,7 @@ import java.util.List;
 
 import umd.project.safetymapexample.R;
 
+import static android.R.attr.x;
 import static umd.project.safetymapexample.util.MapUtils.addMarkers;
 
 public class MapFragment extends com.google.android.gms.maps.MapFragment
@@ -65,10 +66,20 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment
         loadMapData();
     }
 
+    private Query makeQueryCrimeTypeQuery(){
+        final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+        return databaseReference.child("data").child("").equalTo("THEFT").limitToFirst(x);
+    }
+
+    private Query loadFirstXCrimes(int x){
+        final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+        return databaseReference.child("data").limitToFirst(x);
+    }
+
     private void loadMapData() {
         Log.i(TAG, "loadMapData: ");
         final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
-        Query query = databaseReference.child("data").limitToFirst(100);
+        Query query = databaseReference.child("data").limitToFirst(1000);
         Log.i(TAG, "loadMapData: ");
         query.addListenerForSingleValueEvent(new ValueEventListener() {
 
@@ -138,22 +149,26 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment
 
     void displayAsHeatMap() {
         Log.i(TAG, "displayAsHeatMap: ");
-        mMap.clear();
-        addHeatmap(mList);
-        LatLng loc = mList.get(0);
-        changeCameraLocation(new LatLng(loc.latitude, loc.longitude   + OFFSET), 10.0f);
+        if (mMap != null){
+            mMap.clear();
+            addHeatmap(mList);
+            if (mList.size() > 0){
+                LatLng loc = mList.get(0);
+                changeCameraLocation(new LatLng(loc.latitude, loc.longitude   + OFFSET), 10.0f);
+            }
+        }
     }
 
     void displayAsMarkers() {
         Log.i(TAG, "displayAsMarkers: ");
-        mMap.clear();
-        addMarkers(mMap, mList);
-        LatLng loc = mList.get(0);
-        changeCameraLocation(new LatLng(loc.latitude, loc.longitude + OFFSET), 10.0f);
-    }
-
-    private void addClusteredMarkers(List<LatLng> list) {
-
+        if (mMap != null){
+            mMap.clear();
+            addMarkers(mMap, mList);
+            if (mList.size() > 0){
+                LatLng loc = mList.get(0);
+                changeCameraLocation(new LatLng(loc.latitude, loc.longitude   + OFFSET), 10.0f);
+            }
+        }
     }
 
     public void changeCameraLocation(LatLng location, float zoom){
@@ -170,9 +185,7 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment
     }
 
 
-    private void addCustomOverlay(List<LatLng> list) {
 
-    }
 
 
 }

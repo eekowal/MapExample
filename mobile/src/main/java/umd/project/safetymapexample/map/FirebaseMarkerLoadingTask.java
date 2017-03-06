@@ -2,7 +2,6 @@ package umd.project.safetymapexample.map;
 
 import android.content.AsyncTaskLoader;
 import android.content.Context;
-import android.os.Looper;
 import android.util.Log;
 
 import com.google.android.gms.maps.model.LatLng;
@@ -38,10 +37,6 @@ public class FirebaseMarkerLoadingTask extends AsyncTaskLoader {
             double lng = Double.valueOf((String) crime.get(21));
 
             list.add(new LatLng(lat, lng));
-
-            if(Looper.myLooper() == Looper.getMainLooper()) {
-                Log.i(TAG, "Running on Main thread!");
-            }
 
             Log.i(TAG, "Crime " + crimeSnapshot.getKey() + ": " + crime);
         }

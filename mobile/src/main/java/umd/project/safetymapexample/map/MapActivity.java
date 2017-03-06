@@ -13,6 +13,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -51,7 +52,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map_bottomsheet);
 
-        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_map_activity);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,6 +80,14 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         bottomSheetBehavior.setPeekHeight(mPeakHeight);
 
         mMapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.fragment_map);
+
+        findViewById(R.id.bottom_sheet).setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                return true;
+            }
+        });
+
     }
 
     private float getPeakHeight(){
@@ -158,14 +167,35 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     }
 
     @Override
+    public void onActivityReenter(int resultCode, Intent data) {
+        super.onActivityReenter(resultCode, data);
+        Log.i(TAG, "onActivityReenter: ");
+    }
+
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == SETTINGS_REQUEST && resultCode == RESULT_OK && data != null){
             int displayType = data.getIntExtra("DISPLAY_TYPE", -1);
             double[] loc = data.getDoubleArrayExtra("LOCATION");
+
             setDisplay(displayType);
-            setLocation(loc);
+
+            if (loc != null){
+                setLocation(loc);
+            }
         }
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_map_activity);
+        Log.i(TAG, "onActivityResult: " + fab.isShown());
+        Log.i(TAG, "onActivityResult: " + fab.getElevation());
+
+        fab.invalidate();
+
+        Log.i(TAG, "onActivityResult: " + fab.isShown());
+        Log.i(TAG, "onActivityResult: " + fab.getElevation());
+
+
     }
 
 }
