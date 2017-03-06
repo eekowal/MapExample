@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/emilyk/.android/build-cache/3b9fccfa2e3c86472138cb8b8468a510a34e5b47/output/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/emily/Desktop/SafetyMapExample/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
-        <dex dex="/Users/emilyk/Desktop/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b75bb0f6f9fc397e61317f6311ab45ee134a1e59/classes.dex" />
+        sha1="9b3a15b631e6b4012446af9de38feb5d8d1de050">
+        <dex dex="/Users/emily/Desktop/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a3923a830f6b462aa39c6cbe4311248eb7a9e317/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/emilyk/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
-        jumboMode="false"
+        jar="/Users/emily/Desktop/SafetyMapExample/mobile/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0a9cb567dc008f570c28531720168f19148da965">
-        <dex dex="/Users/emilyk/Desktop/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta4_59746cfb37e70b9df97a3cbf907e78a452ac24da/classes.dex" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/emily/Desktop/SafetyMapExample/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_04647e2f0dd3c11f88bfc49193b85d729194e62d/classes.dex" />
     </item>
 
 </items>

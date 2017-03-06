@@ -18,7 +18,7 @@ public class FirebaseMarkerLoadingTask extends AsyncTaskLoader {
 
     private final static String DATABASE_URL="https://safetymap-a90dc.firebaseio.com";
 
-    public FirebaseMarkerLoadingTask(Context context, DataSnapshot dataSnapshot) {
+    FirebaseMarkerLoadingTask(Context context, DataSnapshot dataSnapshot) {
         super(context);
         mDataSnapshot = dataSnapshot;
     }

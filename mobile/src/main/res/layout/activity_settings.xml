@@ -120,8 +120,28 @@
                 android:id="@+id/markers"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Markers"
-                android:alpha=".87"/>
+                android:alpha=".87"
+                android:text="Markers" />
+
+            <RadioButton
+                android:id="@+id/clustered_markers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_display_heading"
+                android:layout_toEndOf="@+id/radiogroup"
+                android:layout_weight="1"
+                android:alpha=".87"
+                android:text="Clustered Markers" />
+
+            <RadioButton
+                android:id="@+id/paint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/clustered_markers"
+                android:layout_below="@+id/clustered_markers"
+                android:layout_weight="1"
+                android:alpha=".87"
+                android:text="Paint" />
 
         </RadioGroup>
 
@@ -158,27 +178,9 @@
             android:src="@drawable/ic_check_black_24dp"
             android:transitionName="@string/settings_transition"
             android:background="?android:attr/selectableItemBackground"
-            app:elevation="17dp"
+            app:elevation="8dp"
             android:scaleType="centerCrop"
             app:fabSize="normal" />
-
-        <RadioButton
-            android:id="@+id/clustered_markers"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Clustered Markers"
-            android:layout_below="@+id/textview_display_heading"
-            android:layout_toEndOf="@+id/radiogroup"
-            android:alpha=".87"/>
-
-        <RadioButton
-            android:id="@+id/paint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/clustered_markers"
-            android:layout_below="@+id/clustered_markers"
-            android:text="Paint"
-            android:alpha=".87"/>
 
     </RelativeLayout>
 

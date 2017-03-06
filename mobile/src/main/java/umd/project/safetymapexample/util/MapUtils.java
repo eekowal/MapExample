@@ -26,25 +26,7 @@ public class MapUtils {
         }
     }
 
-    public static TileProvider addHeatMap(GoogleMap map, List<LatLng> list) {
-        TileProvider provider = new HeatmapTileProvider.Builder()
-                .data(list)
-                .build();
-
-        map.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
-
-        return provider;
-    }
-
-    public static TileOverlay addWeightedHeatMap(GoogleMap map, TileProvider provider, List<LatLng> list) {
-        provider = new HeatmapTileProvider.Builder()
-                .data(list)
-                .build();
-
-        return map.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
-    }
-
-    public static void loadMapStyles(Context context, GoogleMap map, int resource) {
+    public static void setMapStyles(Context context, GoogleMap map, int resource) {
         try {
             // Customise the styling of the base map using a JSON object defined
             // in a raw resource file.

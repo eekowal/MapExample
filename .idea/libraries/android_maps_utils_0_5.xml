@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="android-maps-utils-0.5">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/b03807a668f4e342c0b85ebd1be524487f38b5d9/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/b03807a668f4e342c0b85ebd1be524487f38b5d9/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/00b9dd9228ff81614b8210b423fda9525d0122ab/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/00b9dd9228ff81614b8210b423fda9525d0122ab/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

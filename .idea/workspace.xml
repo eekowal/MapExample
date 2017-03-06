@@ -15,25 +15,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db540cb0-7d57-48c6-aaa7-6a23bf2375ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/UiUtils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MarkerLoadingTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/util/MarkerModel.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map_bottomsheet.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_maps_utils_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_maps_utils_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_0_beta4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_0_beta4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_0_beta4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_0_beta4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_appindexing_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_appindexing_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_auth_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_auth_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_common_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_common_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_config_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_config_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_core_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_core_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_crash_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_crash_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_database_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_database_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_database_connection_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_database_connection_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_iid_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_iid_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_messaging_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_messaging_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_storage_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_storage_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_storage_common_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_storage_common_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_24_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_24_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/palette_v7_24_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/palette_v7_24_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/percent_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/percent_23_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_impl_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_impl_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_base_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_base_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_awareness_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_awareness_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_cast_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_cast_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_cast_framework_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_cast_framework_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_clearcut_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_clearcut_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_drive_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_drive_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_games_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_games_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gass_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gass_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_identity_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_identity_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_iid_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_iid_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_instantapps_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_instantapps_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_location_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_location_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_places_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_places_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_plus_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_plus_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tagmanager_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tagmanager_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tagmanager_api_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tagmanager_api_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tagmanager_v4_impl_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tagmanager_v4_impl_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_vision_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_vision_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_10_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_24_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_24_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/wearable_2_0_0_beta2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/wearable_2_0_0_beta2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/mobile.iml" afterPath="$PROJECT_DIR$/mobile/mobile.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/FirebaseMarkerLoadingTask.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/FirebaseMarkerLoadingTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map_bottomsheet.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map_bottomsheet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/MapUtils.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/MapUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/fragment_location_details.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/fragment_location_details.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/wear.iml" afterPath="$PROJECT_DIR$/wear/wear.iml" />
     </list>
     <ignored path="SafetyMapExample.iws" />
@@ -66,16 +148,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MapActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java">
+      <file leaf-file-name="MapFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="1008">
+              <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3051#3218#0" expanded="true" />
-                <element signature="e#3217#3218#0" expanded="true" />
-                <marker date="1488758820000" expanded="true" signature="2128:2167" ph="&quot;settings&quot;" />
               </folding>
             </state>
           </provider>
@@ -87,6 +166,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -2892,7 +2972,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5953459798000" />
+        <entry key="$PROJECT_DIR$" value="5954961668000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3272,25 +3352,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/dialog_search.xml" />
-        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/FirebaseMarkerLoadingTask.java" />
-        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java" />
-        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map_bottomsheet.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MarkerLoadingTask.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/FirebaseMarkerLoadingTask.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/UiUtils.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/MapUtils.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/fragment_location_details.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="y" value="33" />
-    <option name="width" value="1418" />
-    <option name="height" value="784" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -3317,6 +3399,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3331,12 +3419,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
+              <option name="myItemId" value="wear" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3351,28 +3435,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SafetyMapExample" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raw" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3443,7 +3505,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="map" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3457,18 +3519,30 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="safetymapexample" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafetyMapExample" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3481,6 +3555,7 @@
     <property name="device.picker.selection" value="HT5ASJT00314" />
     <property name="VectorAssetImportPath" value="$USER_HOME$" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -3921,7 +3996,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="33" width="1418" height="784" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -3930,7 +4005,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3832021" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3823824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844576" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -3938,7 +4013,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.264457" sideWeight="0.48765433" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18203124" sideWeight="0.48765433" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -3975,243 +4050,114 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml">
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2055">
-          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
+        <state relative-caret-position="1968">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
-            <marker date="1488757797000" expanded="true" signature="146:7095" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="305:7043" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="451:769" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="789:1231" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="1253:2158" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="1658:1909" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="1936:2135" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="2178:2526" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="2552:3566" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="2850:3136" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="3195:3539" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="3586:3991" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4013:4771" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4281:4498" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4525:4748" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4791:5185" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="5203:5617" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="5679:6313" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="6101:6130" ph="&quot;settings&quot;" />
-            <marker date="1488757797000" expanded="true" signature="6336:6677" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="6700:7020" ph="..." />
+            <marker date="1488771106000" expanded="true" signature="50:1079" ph="..." />
+            <marker date="1488771106000" expanded="true" signature="1430:2493" ph="{...}" />
+            <marker date="1488771106000" expanded="false" signature="1656:1748" ph="(v) → {" />
+            <marker date="1488771106000" expanded="true" signature="1877:1931" ph="&quot;settings&quot;" />
+            <marker date="1488771106000" expanded="false" signature="2314:2329" ph="}" />
+            <marker date="1488771106000" expanded="true" signature="2530:3097" ph="{...}" />
+            <marker date="1488771106000" expanded="true" signature="2922:3053" ph="(v, event) → { " />
+            <marker date="1488771106000" expanded="true" signature="3065:3089" ph=" }" />
+            <marker date="1488771106000" expanded="true" signature="3143:3516" ph="{...}" />
+            <marker date="1488771106000" expanded="true" signature="3614:4148" ph="{...}" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1968">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <marker date="1488771106000" expanded="true" signature="50:1079" ph="..." />
+            <marker date="1488771106000" expanded="true" signature="1430:2493" ph="{...}" />
+            <marker date="1488771106000" expanded="false" signature="1656:1748" ph="(v) → {" />
+            <marker date="1488771106000" expanded="true" signature="1877:1931" ph="&quot;settings&quot;" />
+            <marker date="1488771106000" expanded="false" signature="2314:2329" ph="}" />
+            <marker date="1488771106000" expanded="true" signature="2530:3097" ph="{...}" />
+            <marker date="1488771106000" expanded="true" signature="2922:3053" ph="(v, event) → { " />
+            <marker date="1488771106000" expanded="true" signature="3065:3089" ph=" }" />
+            <marker date="1488771106000" expanded="true" signature="3143:3516" ph="{...}" />
+            <marker date="1488771106000" expanded="true" signature="3614:4148" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/util/Crime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/MapUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <marker date="1488602622000" expanded="false" signature="51:603" ph="..." />
-            <marker date="1488602622000" expanded="true" signature="769:884" ph="{...}" />
-            <marker date="1488602622000" expanded="true" signature="962:1193" ph="{...}" />
-            <marker date="1488602622000" expanded="true" signature="1301:1500" ph="{...}" />
-            <marker date="1488602622000" expanded="true" signature="1585:2064" ph="{...}" />
-            <marker date="1488602622000" expanded="true" signature="1613:1720" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/PermissionsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1488582942000" expanded="false" signature="51:209" ph="..." />
-            <marker date="1488582942000" expanded="true" signature="431:690" ph="{...}" />
-          </folding>
+        <state relative-caret-position="2055">
+          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_bottom.xml" />
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488757797000" expanded="true" signature="146:7095" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="305:7043" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="451:769" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="789:1231" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="1253:2158" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="1658:1909" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="1936:2135" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="2178:2526" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="2552:3566" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="2850:3136" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="3195:3539" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="3586:3991" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4013:4771" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4281:4498" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4525:4748" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4791:5185" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="5203:5617" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="5679:6313" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="6101:6130" ph="&quot;settings&quot;" />
-            <marker date="1488757797000" expanded="true" signature="6336:6677" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="6700:7020" ph="..." />
-          </folding>
+          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/navigation.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488682395000" expanded="true" signature="103:607" ph="..." />
-            <marker date="1488682395000" expanded="true" signature="115:254" ph="..." />
-            <marker date="1488682395000" expanded="false" signature="232:252" ph="&quot;Home&quot;" />
-            <marker date="1488682395000" expanded="true" signature="266:420" ph="..." />
-            <marker date="1488682395000" expanded="false" signature="393:418" ph="&quot;Dashboard&quot;" />
-            <marker date="1488682395000" expanded="true" signature="432:598" ph="..." />
-            <marker date="1488682395000" expanded="false" signature="567:596" ph="&quot;Notifications&quot;" />
-          </folding>
+          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/map_menu.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488648531000" expanded="true" signature="103:413" ph="..." />
-            <marker date="1488648531000" expanded="true" signature="140:174" ph="..." />
-            <marker date="1488648531000" expanded="true" signature="221:265" ph="..." />
-            <marker date="1488648531000" expanded="true" signature="302:336" ph="..." />
-            <marker date="1488648531000" expanded="true" signature="372:405" ph="..." />
-          </folding>
+          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable/ic_sync_black_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488089389000" expanded="true" signature="66:513" ph="..." />
-            <marker date="1488089389000" expanded="true" signature="195:503" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MarkerLoadingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <marker date="1488604236000" expanded="false" signature="50:397" ph="..." />
-            <marker date="1488604236000" expanded="false" signature="518:528" ph=" { " />
-            <marker date="1488604236000" expanded="false" signature="543:549" ph=" }" />
-            <marker date="1488604236000" expanded="true" signature="608:1296" ph="{...}" />
-            <marker date="1488604236000" expanded="false" signature="656:664" ph="&lt;~&gt;" />
-            <marker date="1488604236000" expanded="true" signature="1362:1673" ph="{...}" />
-            <marker date="1488604236000" expanded="true" signature="1675:2091" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/LocationDetailsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <marker date="1488694371000" expanded="false" signature="47:187" ph="..." />
-            <marker date="1488694371000" expanded="true" signature="190:236" ph="/**...*/" />
-            <marker date="1488694371000" expanded="true" signature="332:384" ph="{...}" />
-            <marker date="1488694371000" expanded="true" signature="532:674" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/fragment_location_details.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <marker date="1488694352000" expanded="true" signature="71:499" ph="..." />
-            <marker date="1488694352000" expanded="true" signature="340:483" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <marker date="1488733311000" expanded="true" signature="107:1781" ph="..." />
-            <marker date="1488733311000" expanded="true" signature="161:390" ph="..." />
-            <marker date="1488733311000" expanded="true" signature="490:1768" ph="..." />
-            <marker date="1488733311000" expanded="false" signature="591:609" ph="&quot;Map Demo&quot;" />
-            <marker date="1488733311000" expanded="true" signature="699:1199" ph="..." />
-            <marker date="1488733311000" expanded="true" signature="1221:1333" ph="..." />
-            <marker date="1488733311000" expanded="false" signature="1306:1331" ph="&quot;AIzaSyC98xoaB864VWVyBJVbgy_dmrbewuw4vtk&quot;" />
-            <marker date="1488733311000" expanded="true" signature="1353:1658" ph="..." />
-            <marker date="1488733311000" expanded="true" signature="1462:1638" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="55" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml" />
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="470" selection-start-line="4" selection-start-column="470" selection-end-line="4" selection-end-column="470" />
-          <folding>
-            <marker date="1488696517000" expanded="true" signature="10:3584" ph="..." />
-            <marker date="1488696517000" expanded="true" signature="955:1044" ph="..." />
-            <marker date="1488696517000" expanded="true" signature="1314:1424" ph="..." />
-            <marker date="1488696517000" expanded="true" signature="1475:1565" ph="..." />
-            <marker date="1488696517000" expanded="false" signature="1660:1665" ph="..." />
-            <marker date="1488696517000" expanded="true" signature="1801:1998" ph="..." />
-            <marker date="1488696517000" expanded="true" signature="2051:2217" ph="..." />
-            <marker date="1488696517000" expanded="true" signature="2268:2375" ph="..." />
-            <marker date="1488696517000" expanded="true" signature="2431:2520" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4219,352 +4165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="2428" column="40" selection-start-line="2428" selection-start-column="40" selection-end-line="2428" selection-end-column="40" />
-          <folding>
-            <marker date="1488757991000" expanded="true" signature="144:208245" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="212:407" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="471:611" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="661:768" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="823:912" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="1033:1143" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="1194:1284" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="1337:1534" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="1587:1753" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="2201:2253" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="2398:2450" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="2524:2576" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="2714:2766" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="2839:2891" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="3226:3365" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="3573:3625" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="3699:3751" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="3892:3944" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="4019:4071" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="4144:4196" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="4271:4323" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="4462:4514" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="4585:4637" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="4771:4910" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="5506:5672" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="15759:17633" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="15787:15977" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="16005:16358" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="19268:19724" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="19300:19645" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="19911:20437" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="20053:20417" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="20962:27319" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="22205:22271" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="27622:27869" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="27674:27746" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="30928:33018" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="31610:32255" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="32289:32934" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="33080:33380" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="33113:33297" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="33587:34013" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="33684:33993" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="38153:40298" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="38363:39271" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="39315:39750" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="39786:40278" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="41016:41248" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="41051:41122" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="41157:41228" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="42081:42579" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="42205:42389" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="43436:43917" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="43461:43852" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="43958:44347" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="44027:44143" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="44505:45048" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="44790:44980" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="45476:45738" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="45512:45630" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="45778:47047" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="45799:45974" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="47539:48462" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="47986:48300" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="51253:51701" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="51320:51454" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="51747:52084" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="51772:52064" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="52128:52497" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="52171:52281" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="52325:52427" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="52933:54220" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="53027:53391" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="53496:53860" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="54403:55342" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="54619:54726" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="54750:54852" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="55774:56878" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="56549:56858" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="56917:58251" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="57675:57808" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="58548:58986" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="58657:58966" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="59192:59651" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="59214:59295" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="59320:59471" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="59544:59631" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="59702:61414" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="59750:59838" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="59885:59973" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="60000:60273" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="60306:60713" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="61178:61394" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="89230:89319" ph="..." />
-            <marker date="1488757991000" expanded="false" signature="89367:89372" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="91652:91849" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="91914:92181" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="92251:92682" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="92849:93018" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="93100:93299" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="93356:93713" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="93789:93998" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="94084:94391" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="94472:94868" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="94923:95090" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="95145:95312" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="95368:95580" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="95637:95807" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="95865:96037" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="96095:96267" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="96325:96497" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="96555:96727" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="96785:96954" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="97011:97193" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="97248:97419" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="97482:97664" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="97720:97894" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="97958:98142" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="98196:98361" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="98433:98644" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="98715:98852" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="98920:98983" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="99038:99210" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="99273:99456" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="99513:99681" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="99746:99928" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="99983:100149" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="100212:100394" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="100506:100670" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="100787:100971" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="101104:101295" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="101407:101586" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="101714:101900" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="102408:102515" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="102586:102682" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="102794:102886" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="102993:103094" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="103201:103365" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="103924:104025" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="104158:104171" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="104298:104311" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="104384:104397" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="104459:104745" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="104886:105063" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="105120:105481" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="105537:105714" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="105881:105894" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="105990:106486" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="106645:106822" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="106885:107246" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="107308:107485" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="107725:107905" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="108003:109929" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="109991:110171" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="110333:110510" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="110610:112666" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="112737:122270" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="122350:123521" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="123604:133224" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="133316:134487" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="134581:135979" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="136089:136515" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="136601:136845" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="136906:138110" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="138167:138366" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="138434:138602" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="138671:139149" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="139218:139643" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="139748:140248" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="140312:140446" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="140569:141026" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="141088:141590" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="141661:141965" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="142155:142621" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="142680:142778" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="142845:142974" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="143096:143247" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="143303:143503" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="143557:143673" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="143748:143814" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="143991:144160" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="144279:144446" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="144548:145122" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="145237:145386" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="145462:145724" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="145796:146077" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="146260:146357" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="146455:146663" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="146726:146925" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="147037:147050" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="147164:147177" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="147305:147416" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="147530:147627" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="147733:147746" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="147812:147939" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="148017:148116" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="148183:148571" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="148654:148752" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="148811:148874" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="148967:149133" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="149233:149246" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="149306:149433" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="149522:149535" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="149624:149979" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="150090:150103" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="150188:150378" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="150473:150886" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="150977:151382" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="151458:152259" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="152321:152553" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="152626:153123" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="153181:153272" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="153364:154004" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="154064:154176" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="154283:154512" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="154585:155570" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="155661:155848" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="155923:156002" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="156074:156593" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="156644:156657" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="156690:156783" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="156817:156911" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="156953:158136" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="158172:158689" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="158727:160257" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="160292:160515" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="160576:163639" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="163712:166906" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="167024:167546" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="167603:168130" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="168316:168329" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="168420:168558" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="168646:168718" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="168803:168870" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="168969:169041" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="169131:169208" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="169295:169451" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="169544:169621" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="169714:169794" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="169887:169965" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="170085:170239" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="170329:170438" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="170523:170643" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="170757:170973" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="171049:171561" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="173730:173872" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="173934:174076" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="174515:174657" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="174789:174929" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="175126:175139" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="175260:175273" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="176032:176045" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="176332:176345" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="176620:176633" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="176770:176783" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="177055:177068" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="177844:177857" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="178597:178652" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="178753:178808" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="178914:178923" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="179027:179036" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="179147:179237" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="179429:179508" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="179597:179676" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="179764:179851" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="179941:180104" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="180190:180395" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="180890:180903" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="181034:181047" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="181172:181185" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="182396:182409" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="183008:183021" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="183074:183184" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="183231:183341" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="183422:183615" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="183710:183719" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="183776:183873" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="183955:184231" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="184300:184398" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="184492:184768" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="184818:184928" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="184972:185082" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="185139:185480" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="185527:187390" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="187433:189258" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="189318:189887" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="189942:190525" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="191258:191674" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="191794:191846" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="191908:192323" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="192369:193235" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="193322:193335" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="193434:193447" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="193548:193561" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="193664:193677" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="193780:193793" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="194202:194215" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="194322:194335" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="194444:194457" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="195734:195806" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="196199:196212" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="196323:196336" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="196516:196529" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="196712:196725" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="196856:196869" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="196984:196997" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="198242:198255" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="198662:198675" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="199299:199312" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="199403:199416" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="199507:199520" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="199633:199646" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="201037:201050" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="201114:201291" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="201366:201726" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="201801:201933" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="202008:202092" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="202170:202657" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="202715:203018" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="203084:203147" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="203213:203814" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="203895:203994" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="204067:204703" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="204763:204887" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="204945:205008" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="205071:205140" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="205204:205273" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="205333:205396" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="205461:205530" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="205596:205665" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="205820:205883" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="205949:206018" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="206085:206154" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="206217:206280" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="206348:206417" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="206486:206555" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="206614:206742" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="206806:206875" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="206940:207009" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="207115:207317" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="207411:207612" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="207701:207820" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="207911:207980" ph="..." />
-            <marker date="1488757991000" expanded="true" signature="208062:208232" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4572,67 +4172,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1488752570000" expanded="true" signature="49:259" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/FirebaseMarkerLoadingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <marker date="1488753151000" expanded="true" signature="50:328" ph="..." />
-            <marker date="1488753151000" expanded="true" signature="607:676" ph="{...}" />
-            <marker date="1488753151000" expanded="true" signature="729:1271" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <marker date="1488756800000" expanded="true" signature="46:331" ph="..." />
-            <marker date="1488756800000" expanded="true" signature="461:1281" ph="{...}" />
-            <marker date="1488756800000" expanded="false" signature="697:789" ph="(v) → {" />
-            <marker date="1488756800000" expanded="false" signature="936:951" ph="}" />
-            <marker date="1488756800000" expanded="false" signature="1064:1156" ph="(v) → {" />
-            <marker date="1488756800000" expanded="false" signature="1257:1272" ph="}" />
-            <marker date="1488756800000" expanded="true" signature="1315:1976" ph="{...}" />
-            <marker date="1488756800000" expanded="true" signature="2049:2194" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <marker date="1488756523000" expanded="true" signature="50:1242" ph="..." />
-            <marker date="1488756523000" expanded="true" signature="1740:1806" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="1870:2100" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="2145:2342" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="2385:2555" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="2588:4133" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="2907:4116" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="3002:3893" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="3235:3865" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="3351:3521" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="3648:3715" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="3822:3846" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="3982:4105" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="4179:4572" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="4602:4673" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="4724:4995" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="5025:5357" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="5387:5725" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="5792:5878" ph="{...}" />
-            <marker date="1488756523000" expanded="true" signature="5927:6161" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4640,60 +4180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488396943000" expanded="true" signature="0:2283" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="4:106" ph="{&quot;elementType&quot;: &quot;geometry&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="52:102" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="60:96" ph="{&quot;color&quot;: &quot;##f5f5f5&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="110:216" ph="{&quot;elementType&quot;: &quot;labels.icon&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="161:212" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="169:206" ph="{&quot;visibility&quot;: &quot;off&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="220:330" ph="{&quot;elementType&quot;: &quot;labels.text.fill&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="276:326" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="284:320" ph="{&quot;color&quot;: &quot;##616161&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="334:446" ph="{&quot;elementType&quot;: &quot;labels.text.stroke&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="392:442" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="400:436" ph="{&quot;color&quot;: &quot;##f5f5f5&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="450:578" ph="{&quot;featureType&quot;: &quot;poi&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="524:574" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="532:568" ph="{&quot;color&quot;: &quot;##eeeeee&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="582:718" ph="{&quot;featureType&quot;: &quot;poi&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="664:714" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="672:708" ph="{&quot;color&quot;: &quot;##757575&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="722:855" ph="{&quot;featureType&quot;: &quot;poi.park&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="801:851" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="809:845" ph="{&quot;color&quot;: &quot;##e5e5e5&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="859:1000" ph="{&quot;featureType&quot;: &quot;poi.park&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="946:996" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="954:990" ph="{&quot;color&quot;: &quot;##9e9e9e&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1004:1133" ph="{&quot;featureType&quot;: &quot;road&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1079:1129" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="1087:1123" ph="{&quot;color&quot;: &quot;##ffffff&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1137:1283" ph="{&quot;featureType&quot;: &quot;road.arterial&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1229:1279" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="1237:1273" ph="{&quot;color&quot;: &quot;##757575&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1287:1424" ph="{&quot;featureType&quot;: &quot;road.highway&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1370:1420" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="1378:1414" ph="{&quot;color&quot;: &quot;##dadada&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1428:1573" ph="{&quot;featureType&quot;: &quot;road.highway&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1519:1569" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="1527:1563" ph="{&quot;color&quot;: &quot;##616161&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1577:1720" ph="{&quot;featureType&quot;: &quot;road.local&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1666:1716" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="1674:1710" ph="{&quot;color&quot;: &quot;##9e9e9e&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1724:1861" ph="{&quot;featureType&quot;: &quot;transit.line&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1807:1857" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="1815:1851" ph="{&quot;color&quot;: &quot;##e5e5e5&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1865:2005" ph="{&quot;featureType&quot;: &quot;transit.station&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="1951:2001" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="1959:1995" ph="{&quot;color&quot;: &quot;##eeeeee&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="2009:2139" ph="{&quot;featureType&quot;: &quot;water&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="2085:2135" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="2093:2129" ph="{&quot;color&quot;: &quot;##c9c9c9&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="2143:2281" ph="{&quot;featureType&quot;: &quot;water&quot;...}" />
-            <marker date="1488396943000" expanded="true" signature="2227:2277" ph="[...]" />
-            <marker date="1488396943000" expanded="true" signature="2235:2271" ph="{&quot;color&quot;: &quot;##9e9e9e&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4701,80 +4187,211 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MarkerLoadingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/util/Crime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <marker date="1488757932000" expanded="true" signature="10:980" ph="..." />
-            <marker date="1488757932000" expanded="true" signature="112:379" ph="..." />
-            <marker date="1488757932000" expanded="true" signature="455:967" ph="..." />
+            <marker date="1488740417000" expanded="true" signature="48:529" ph="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_map_bottomsheet.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/util/MarkerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/MapUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <marker date="1488757970000" expanded="true" signature="107:3054" ph="..." />
-            <marker date="1488757970000" expanded="true" signature="301:499" ph="..." />
-            <marker date="1488757970000" expanded="true" signature="520:2306" ph="..." />
-            <marker date="1488757970000" expanded="true" signature="867:1145" ph="..." />
-            <marker date="1488757970000" expanded="true" signature="1165:1525" ph="..." />
-            <marker date="1488757970000" expanded="false" signature="1435:1450" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
-            <marker date="1488757970000" expanded="true" signature="1545:1905" ph="..." />
-            <marker date="1488757970000" expanded="true" signature="1815:1830" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
-            <marker date="1488757970000" expanded="true" signature="1925:2285" ph="..." />
-            <marker date="1488757970000" expanded="true" signature="2195:2210" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
-            <marker date="1488757970000" expanded="true" signature="2364:3002" ph="..." />
-            <marker date="1488757970000" expanded="true" signature="2656:2685" ph="&quot;settings&quot;" />
+            <marker date="1488769234000" expanded="false" signature="51:603" ph="..." />
+            <marker date="1488769234000" expanded="true" signature="769:884" ph="{...}" />
+            <marker date="1488769234000" expanded="true" signature="968:1447" ph="{...}" />
+            <marker date="1488769234000" expanded="true" signature="996:1103" ph="//..." />
           </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <marker date="1488767456000" expanded="false" signature="46:331" ph="..." />
+            <marker date="1488767456000" expanded="true" signature="461:1281" ph="{...}" />
+            <marker date="1488767456000" expanded="false" signature="697:789" ph="(v) → {" />
+            <marker date="1488767456000" expanded="false" signature="936:951" ph="}" />
+            <marker date="1488767456000" expanded="false" signature="1064:1156" ph="(v) → {" />
+            <marker date="1488767456000" expanded="false" signature="1257:1272" ph="}" />
+            <marker date="1488767456000" expanded="true" signature="1315:1976" ph="{...}" />
+            <marker date="1488767456000" expanded="true" signature="2049:2194" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/LocationDetailsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <marker date="1488740417000" expanded="false" signature="47:187" ph="..." />
+            <marker date="1488740417000" expanded="true" signature="190:236" ph="/**...*/" />
+            <marker date="1488740417000" expanded="true" signature="332:384" ph="{...}" />
+            <marker date="1488740417000" expanded="true" signature="532:674" ph="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_settings.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="161" column="42" selection-start-line="161" selection-start-column="42" selection-end-line="161" selection-end-column="42" />
+        <state relative-caret-position="48">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="55" />
           <folding>
-            <marker date="1488757797000" expanded="true" signature="146:7095" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="305:7043" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="451:769" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="789:1231" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="1253:2158" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="1658:1909" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="1936:2135" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="2178:2526" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="2552:3566" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="2850:3136" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="3195:3539" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="3586:3991" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4013:4771" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4281:4498" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4525:4748" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="4791:5185" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="5203:5617" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="5679:6313" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="6101:6130" ph="&quot;settings&quot;" />
-            <marker date="1488757797000" expanded="true" signature="6336:6677" ph="..." />
-            <marker date="1488757797000" expanded="true" signature="6700:7020" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="146:7245" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="305:7193" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="451:769" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="789:1231" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="1253:2158" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="1658:1909" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="1936:2135" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="2178:2526" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="2552:3566" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="2850:3136" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="3195:3539" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="3586:3991" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="4013:5629" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="4281:4498" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="4525:4749" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="4776:5188" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="5215:5606" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="5649:6043" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="6061:6475" ph="..." />
+            <marker date="1488769678000" expanded="true" signature="6537:7170" ph="..." />
+            <marker date="1488769678000" expanded="false" signature="6959:6988" ph="&quot;settings&quot;" />
           </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/PermissionsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1488740417000" expanded="false" signature="51:209" ph="..." />
+            <marker date="1488740417000" expanded="true" signature="431:690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/util/UiUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <marker date="1488768941000" expanded="true" signature="51:197" ph="..." />
+            <marker date="1488768941000" expanded="true" signature="290:591" ph="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="696">
+          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+          <folding>
+            <marker date="1488771106000" expanded="true" signature="50:1079" ph="..." />
+            <marker date="1488771106000" expanded="true" signature="1430:2493" ph="{...}" />
+            <marker date="1488771106000" expanded="false" signature="1656:1748" ph="(v) → {" />
+            <marker date="1488771106000" expanded="true" signature="1877:1931" ph="&quot;settings&quot;" />
+            <marker date="1488771106000" expanded="false" signature="2314:2329" ph="}" />
+            <marker date="1488771106000" expanded="true" signature="2530:3097" ph="{...}" />
+            <marker date="1488771106000" expanded="true" signature="2922:3053" ph="(v, event) → { " />
+            <marker date="1488771106000" expanded="true" signature="3065:3089" ph=" }" />
+            <marker date="1488771106000" expanded="true" signature="3143:3516" ph="{...}" />
+            <marker date="1488771106000" expanded="true" signature="3614:4148" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_map.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding>
+            <marker date="1488771200000" expanded="true" signature="107:3440" ph="..." />
+            <marker date="1488771200000" expanded="true" signature="352:550" ph="..." />
+            <marker date="1488771200000" expanded="true" signature="567:910" ph="..." />
+            <marker date="1488771200000" expanded="false" signature="1863:1878" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
+            <marker date="1488771200000" expanded="false" signature="2237:2252" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
+            <marker date="1488771200000" expanded="false" signature="2611:2626" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
+            <marker date="1488771200000" expanded="true" signature="2788:3388" ph="..." />
+            <marker date="1488771200000" expanded="false" signature="3148:3177" ph="&quot;settings&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/fragment_location_details.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <marker date="1488771290000" expanded="true" signature="72:1834" ph="..." />
+            <marker date="1488771290000" expanded="true" signature="546:796" ph="..." />
+            <marker date="1488771290000" expanded="true" signature="812:1136" ph="..." />
+            <marker date="1488771290000" expanded="true" signature="1054:1069" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
+            <marker date="1488771290000" expanded="true" signature="1152:1476" ph="..." />
+            <marker date="1488771290000" expanded="true" signature="1394:1409" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
+            <marker date="1488771290000" expanded="true" signature="1492:1816" ph="..." />
+            <marker date="1488771290000" expanded="true" signature="1734:1749" ph="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/FirebaseMarkerLoadingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <marker date="1488768941000" expanded="false" signature="50:328" ph="..." />
+            <marker date="1488768941000" expanded="true" signature="600:669" ph="{...}" />
+            <marker date="1488768941000" expanded="true" signature="722:1264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/umd/project/safetymapexample/map/MapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3051#3218#0" expanded="true" />
-            <element signature="e#3217#3218#0" expanded="true" />
-            <marker date="1488758820000" expanded="true" signature="2128:2167" ph="&quot;settings&quot;" />
           </folding>
         </state>
       </provider>
