@@ -1,23 +1,33 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="umd.project.safetymapexample.LocationDetailsFragment"
     android:background="@android:color/white"
     android:orientation="vertical"
-    android:id="@+id/linearlayout"
-    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
-    >
+    tools:context="umd.project.safetymapexample.map.DetailsFragment">
 
     <TextView
+        android:id="@+id/county_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:alpha=".54"
-        android:padding="16dp"
-        android:text="County Name"
-        android:textColor="#000"
-        android:textSize="22sp" />
+        android:paddingBottom="8dp"
+        android:paddingStart="14dp"
+        android:paddingTop="8dp"
+        android:text="@string/county_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/paragraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha=".87"
+        android:lineSpacingExtra="1sp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/ipsum"
+        android:textColor="#000" />
 
     <TextView
         android:layout_width="match_parent"
@@ -27,8 +37,7 @@
         android:paddingStart="16dp"
         android:paddingTop="8dp"
         android:text="@string/ipsum"
-        android:textColor="#000"
-        android:textSize="16sp" />
+        android:textColor="#000" />
 
     <TextView
         android:layout_width="match_parent"
@@ -38,19 +47,6 @@
         android:paddingStart="16dp"
         android:paddingTop="8dp"
         android:text="@string/ipsum"
-        android:textColor="#000"
-        android:textSize="16sp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:alpha=".87"
-        android:paddingEnd="60dp"
-        android:paddingStart="16dp"
-        android:paddingTop="8dp"
-        android:text="@string/ipsum"
-        android:textColor="#000"
-        android:textSize="16sp" />
-
+        android:textColor="#000" />
 
 </LinearLayout>

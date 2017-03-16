@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locations">
+        <item>@string/location1</item>
+        <item>@string/location2</item>
+    </string-array>
+    <string-array name="location_values">
+        <item>@string/location1</item>
+        <item>@string/location2</item>
+    </string-array>
+    <string-array name="overlays">
+        <item>@string/heatmap</item>
+        <item>@string/markers</item>
+    </string-array>
+    <string-array name="overlay_values">
+        <item>@string/heatmap</item>
+        <item>@string/markers</item>
+    </string-array>
+</resources>

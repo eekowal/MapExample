@@ -1,159 +1,260 @@
 package umd.project.safetymapexample.map;
 
-import android.app.LoaderManager;
-import android.content.Loader;
-import android.content.res.Resources;
-import android.os.Bundle;
-import android.util.Log;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.support.v7.preference.PreferenceManager;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
+import com.firebase.geofire.GeoFire;
+import com.firebase.geofire.GeoLocation;
+import com.firebase.geofire.GeoQuery;
+import com.firebase.geofire.GeoQueryEventListener;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.UiSettings;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MapStyleOptions;
-import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
-import com.google.android.gms.maps.model.TileProvider;
-import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 import com.google.maps.android.heatmaps.HeatmapTileProvider;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
 
 import umd.project.safetymapexample.R;
-import umd.project.safetymapexample.util.MapUtils;
+import umd.project.safetymapexample.util.SettingsUtil;
 
-import static android.R.attr.x;
-import static umd.project.safetymapexample.util.MapUtils.addMarkers;
-import static umd.project.safetymapexample.util.MapUtils.setMapStyles;
+import static com.google.android.gms.maps.CameraUpdateFactory.newLatLngZoom;
+import static umd.project.safetymapexample.settings.Settings.Overlay.HEATMAP;
+import static umd.project.safetymapexample.settings.Settings.Overlay.MARKERS;
+import static umd.project.safetymapexample.util.MapUtil.addMarkers;
+import static umd.project.safetymapexample.util.MapUtil.getLocationFromString;
+import static umd.project.safetymapexample.util.MapUtil.setMapStyles;
+import static umd.project.safetymapexample.util.SettingsUtil.getDisplayTypeFromString;
+import static umd.project.safetymapexample.util.UiUtil.displaySimpleSnackBar;
 
 public class MapFragment extends com.google.android.gms.maps.MapFragment
         implements OnMapReadyCallback {
 
     private static final String TAG = MapFragment.class.getSimpleName();
 
-    private static final int TOKEN_LOADER_MARKERS = 0;
+    private final static String DATABASE_URL = "https://safetymap-a90dc.firebaseio.com";
+    private final static String GEOFIRE_URL = DATABASE_URL + "/_geofire";
 
-    private final DatabaseReference mDatabaseReference = FirebaseDatabase.getInstance().getReference();
+    private GoogleMap mMap;
 
-    protected List<LatLng> mList = new ArrayList<>();
+    private HashMap<String, LatLng> mCoords = new HashMap<>();
+    private DatabaseReference mDatabaseReference;
 
-    protected GoogleMap mMap;
-    protected TileProvider mProvider;
-    protected TileOverlay mOverlay;
+    private LatLng mLocation;
+    private int mOverlayType;
+    private float mZoomLevel;
+    private float mRadius;
 
-    private final double OFFSET = .01;
+    private boolean mBenchmarkDbQuery;
+    private long startTime;
+    private long endTime;
+
+    public MapFragment() {
+        // needed empty constructor
+    }
 
     @Override
-    public void onCreate(Bundle bundle) {
-        super.onCreate(bundle);
-        getMapAsync(this);
+    public void onAttach(Context context) {
+        super.onAttach(context);
+
+        mDatabaseReference = FirebaseDatabase.getInstance()
+                .getReferenceFromUrl(GEOFIRE_URL);
+
+        getMapAsync(this);  // initiates google map. when map is ready calls onMapReady() below.
     }
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        UiSettings uiSettings = mMap.getUiSettings();
+        // update zoom level if user has zoomed in
+        mMap.setOnCameraMoveListener(new GoogleMap.OnCameraMoveListener() {
+            @Override
+            public void onCameraMove() {
+                CameraPosition cameraPosition = mMap.getCameraPosition();
+                mZoomLevel = cameraPosition.zoom;
+            }
+        });
 
+        // style map
         mMap.setBuildingsEnabled(true);
-
         setMapStyles(getContext(), mMap, R.raw.map_styles);
 
-        loadMapData();
+        // restore map to previous state
+        SharedPreferences sharedPreferences = PreferenceManager
+                .getDefaultSharedPreferences(getActivity().getApplicationContext());
+        updateMap(sharedPreferences);
     }
 
-    private void loadMapData() {
+    private void loadGeofireMapData() {
+        loadGeofireMapData(mLocation);
+    }
 
-        Query query = mDatabaseReference.child("data").limitToFirst(1000);
 
-        query.addListenerForSingleValueEvent(new ValueEventListener() {
+    private void loadGeofireMapData(LatLng location) {
+        if (mBenchmarkDbQuery) {
+            startTime = System.currentTimeMillis();
+        }
+
+        displaySimpleSnackBar(getView(), "Collecting crimes in a "
+                + (mRadius) + " km radius.");
+
+        GeoFire geoFire = new GeoFire(mDatabaseReference);
+
+        // gets all crimes at the passed location within radius
+        GeoQuery geoQuery = geoFire.queryAtLocation(new GeoLocation(location.latitude,
+                location.longitude), mRadius);
+
+        geoQuery.addGeoQueryEventListener(new GeoQueryEventListener() {
 
             @Override
-            public void onDataChange(final DataSnapshot dataSnapshot) {
-                LoaderManager loaderManager = getLoaderManager();
-                loaderManager.initLoader(TOKEN_LOADER_MARKERS, null, new LoaderManager.LoaderCallbacks<List<LatLng>>() {
-                    @Override
-                    public Loader<List<LatLng>> onCreateLoader(int id, Bundle args) {
-                        return new FirebaseMarkerLoadingTask(getActivity(), dataSnapshot);
-                    }
-
-                    @Override
-                    public void onLoadFinished(Loader<List<LatLng>> loader, List<LatLng> data) {
-                        onDataLoaded(data);
-                    }
-
-                    @Override
-                    public void onLoaderReset(Loader<List<LatLng>> loader) {
-
-                    }
-
-                }).forceLoad();
+            public void onKeyEntered(String key, GeoLocation location) {
+                mCoords.put(key, new LatLng(location.latitude, location.longitude));
             }
 
             @Override
-            public void onCancelled(DatabaseError databaseError) {
-                databaseError.toException().printStackTrace();
+            public void onKeyExited(String key) {
+                mCoords.remove(key);
+            }
+
+            @Override
+            public void onKeyMoved(String key, GeoLocation location) {
+                // do nothing
+            }
+
+            @Override
+            public void onGeoQueryReady() {
+                setOverlayType();
+                changeCamera();
+
+                if (mBenchmarkDbQuery) {
+                    endTime = System.currentTimeMillis();
+                    displaySimpleSnackBar(getView(), "Total execution time: "
+                            + (endTime - startTime) + "ms");
+                }
+            }
+
+            @Override
+            public void onGeoQueryError(DatabaseError error) {
+                error.toException().printStackTrace();  // print error to logcat (std-out/err)
             }
 
         });
-
     }
 
-    private void onDataLoaded(List<LatLng> list) {
-        if (list != null && !list.isEmpty()) {
-            mList = list;
-            LatLng loc = list.get(0);
-            changeCameraLocation(new LatLng(loc.latitude, loc.longitude + OFFSET), 10.0f);
-            addHeatmap(mList);
+    private void setOverlayType() {
+        switch (mOverlayType) {
+            case (HEATMAP):
+                displayWithHeatMapOverlay();
+                break;
+            case (MARKERS):
+                displayWithMarkers();
+                break;
+            default:
+                displaySimpleSnackBar(getView(), "Display type not implemented!");
         }
     }
 
-    private void addHeatmap(List<LatLng> list) {
-        mProvider = new HeatmapTileProvider.Builder()
-                .data(list)
-                .radius(20)
+    private void addHeatmapOverlay(HashMap<String, LatLng> locations) {
+        HeatmapTileProvider provider = new HeatmapTileProvider.Builder()
+                .data(locations.values())
                 .build();
 
-        mOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
+        mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
     }
 
-    private void clearMap() {
+    void displayWithHeatMapOverlay() {
         if (mMap != null) {
             mMap.clear();
-        }
-    }
-
-    void displayAsHeatMap() {
-        if (mMap != null) {
-            mMap.clear();
-            if (!mList.isEmpty()) {
-                addHeatmap(mList);
-                LatLng loc = mList.get(0);
-                changeCameraLocation(new LatLng(loc.latitude, loc.longitude + OFFSET), 10.0f);
+            if (!mCoords.isEmpty()) {
+                addHeatmapOverlay(mCoords);
+                changeCamera(mLocation, mZoomLevel);
             }
         }
     }
 
-    void displayAsMarkers() {
+    void displayWithMarkers() {
         if (mMap != null) {
             mMap.clear();
-            if (!mList.isEmpty()) {
-                addMarkers(mMap, mList);
-                LatLng loc = mList.get(0);
-                changeCameraLocation(new LatLng(loc.latitude, loc.longitude + OFFSET), 10.0f);
+            if (!mCoords.isEmpty()) {
+                addMarkers(mMap, mCoords);
+                changeCamera(mLocation, mZoomLevel);
             }
         }
     }
 
-    public void changeCameraLocation(LatLng location, float zoom) {
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(location, zoom));
+    void changeCamera() {
+        changeCamera(mLocation, mZoomLevel);
+    }
+
+    void changeCamera(LatLng location, float zoom) {
+        mMap.animateCamera(newLatLngZoom(location, zoom));
+    }
+
+    public void updateMap(Intent settings) {
+
+        mBenchmarkDbQuery = settings.getBooleanExtra(getString(R.string.pref_benchmark), mBenchmarkDbQuery);
+        mOverlayType = settings.getIntExtra(getString(R.string.pref_overlay_type), mOverlayType);
+        mZoomLevel = settings.getFloatExtra(getString(R.string.pref_zoom_level), mZoomLevel);
+
+        if (SettingsUtil.radiusChanged(settings) || SettingsUtil.locationChanged(settings)) {
+
+            mRadius = settings.getFloatExtra(getString(R.string.pref_radius), mRadius);
+
+            String loc = settings.getStringExtra(getString(R.string.pref_location));
+
+            if (loc != null) {
+                mLocation = getLocationFromString(loc);
+            }
+
+            displaySimpleSnackBar(getView(), "Updating screen to new settings. This may take awhile!");
+
+            mCoords.clear();
+
+            loadGeofireMapData();
+
+        } else {
+            changeCamera(mLocation, mZoomLevel);
+            setOverlayType();
+        }
+    }
+
+    private void updateMap(SharedPreferences sharedPref) {
+
+        boolean benchmark = sharedPref.getBoolean(getString(R.string.pref_benchmark), true);
+
+        int overlayType = getDisplayTypeFromString(sharedPref.getString(
+                getString(R.string.pref_overlay_type), getString(R.string.heatmap)));
+
+        float zoomLevel = (float) sharedPref.getInt(getString(R.string.pref_zoom_level), 14);
+
+        float radius = (float) sharedPref.getInt(getString(R.string.pref_radius), 1);
+
+        String loc = sharedPref.getString(getString(R.string.pref_location),
+                getString(R.string.location1));
+        LatLng location = getLocationFromString(loc);
+
+        setMapSettings(location, overlayType, zoomLevel, radius, benchmark);
+
+        mCoords.clear();
+
+        loadGeofireMapData();
+    }
+
+
+    private void setMapSettings(LatLng location, int overlayType,
+                                float zoomLevel, float radius, boolean benchmark) {
+        mBenchmarkDbQuery = benchmark;
+        mLocation = location;
+        mRadius = radius;
+        mOverlayType = overlayType;
+        mZoomLevel = zoomLevel;
     }
 
 
