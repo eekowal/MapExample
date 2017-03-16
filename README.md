@@ -1,1 +1,1 @@
-# SafetyMapExample
+# MapExample
