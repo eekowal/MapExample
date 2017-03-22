@@ -5,6 +5,7 @@
 1. Install Android Studio and the Android SDK: 
 
     [https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html)
+    
     [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
 
 2. Open Android Studio and the project:
