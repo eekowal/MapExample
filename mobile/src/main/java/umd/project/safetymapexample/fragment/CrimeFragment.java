@@ -45,8 +45,6 @@ public class CrimeFragment extends IDataViewFragment {
     if(savedInstanceState == null){
       mCustomStreetViewFragment = new CustomStreetViewFragment();  // TODO: fragment creation
       mCustomMapFragment = new CustomMapFragment();
-      mFragment = mStreetViewEnabled ? mCustomStreetViewFragment : mCustomMapFragment;
-      getChildFragmentManager().beginTransaction().replace(R.id.map, (Fragment) mFragment).commit();
     }
   }
 
@@ -59,6 +57,7 @@ public class CrimeFragment extends IDataViewFragment {
     getView().findViewById(R.id.btn_street_view).setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
         mStreetViewEnabled = !mStreetViewEnabled;
+        SharedPreferencesUtil.saveStreetViewEnabled(CrimeFragment.this, mStreetViewEnabled);
         switchMapFragments();
       }
     });
@@ -86,18 +85,19 @@ public class CrimeFragment extends IDataViewFragment {
   @Override public void onActivityCreated(@Nullable Bundle savedInstanceState) {
     super.onActivityCreated(savedInstanceState);
     mStreetViewEnabled = SharedPreferencesUtil.getStreetViewEnabled(this);
+    mFragment = mStreetViewEnabled ? mCustomStreetViewFragment : mCustomMapFragment;
+    getChildFragmentManager().beginTransaction().replace(R.id.map, (Fragment) mFragment).commit();
     mCurrentLocationCallback = (CurrentLocationCallback) getActivity();
   }
 
   @Override public void onResume() {
     super.onResume();
-    SharedPreferences sharedPreferences = getActivity().getSharedPreferences("crime_map", Context.MODE_PRIVATE);
-    mStreetViewEnabled = sharedPreferences.getBoolean("street_view_enabled", false);
+    //SharedPreferences sharedPreferences = getActivity().getSharedPreferences("crime_map", Context.MODE_PRIVATE);
+    //mStreetViewEnabled = sharedPreferences.getBoolean("street_view_enabled", false);
   }
 
   @Override public void onPause() {
-    SharedPreferences sharedPreferences = getActivity().getSharedPreferences("crime_map", Context.MODE_PRIVATE);
-    sharedPreferences.edit().putBoolean("street_view_enabled", mStreetViewEnabled).apply();
+
     super.onPause();
   }
 
