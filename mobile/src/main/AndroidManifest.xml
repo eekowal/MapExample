@@ -3,6 +3,7 @@
     package="umd.project.safetymapexample">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -25,15 +26,14 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".map.MapActivity"
-            android:label="Map Demo">
+            android:name=".activity.MainActivity"
+            android:label="Crime Map">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".settings.SettingsActivity" />
 
     </application>
 

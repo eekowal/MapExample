@@ -29,12 +29,11 @@ dependencies {
     compile('com.google.maps.android:android-maps-utils:0.5', {
         exclude group: 'com.android.support'
     })
+
     compile('com.google.maps:google-maps-services:0.1.17', {
         exclude group: 'com.android.support'
     })
-    compile ('com.firebase:geofire-android:2.1.1', {
-        exclude group: 'com.android.support'
-    })
+
     compile ('com.google.android.gms:play-services:10.0.1', {
         exclude group: 'com.android.support'
     })
@@ -44,12 +43,12 @@ dependencies {
     compile ('com.google.code.findbugs:jsr305:2.0.1', {
         exclude group: 'com.android.support'
     })
-    // Note: dependency conflict if I use the latest version, so rolled back to 25.1.1.
-    compile project(path: ':backend', configuration: 'android-endpoints')
+
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support:support-v4:25.2.0'
     compile 'com.android.support:design:25.2.0'
     compile 'com.android.support:preference-v7:25.2.0'
+
 }
 
 apply plugin: 'com.google.gms.google-services'
