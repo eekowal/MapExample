@@ -24,4 +24,4 @@
      * [https://developer.android.com/studio/run/device.html](https://developer.android.com/studio/run/device.html)
      * [Video example of creating AVD and running](https://www.dropbox.com/s/i3osmr1orgj8l57/create_avd_and_run.mov?dl=0)
    
-4. [Final app](https://www.dropbox.com/s/w839ch9gxitt97k/app_demo.mov?dl=0)
+4. [Final app](https://www.dropbox.com/s/lbsarlm2lf1y30n/mapexample_rev_720.mov?dl=0)
