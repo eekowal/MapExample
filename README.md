@@ -1,10 +1,10 @@
 # SafeGuard
 
 <ol >
-<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--5.jpg" width="188"/>
-<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--2.jpg" width="188"/>
-<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--3.jpg" width="188"/>
-<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--4.jpg" width="188"/>
+<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--5.jpg" width="190"/>
+<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--2.jpg" width="190"/>
+<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--3.jpg" width="190"/>
+<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--4.jpg" width="190"/>
 </ol>
 
 [SafeGuard: APK](https://github.com/eekowal/Safeguard/blob/master/safeguard-debug.apk)
