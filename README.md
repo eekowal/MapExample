@@ -1,27 +1,30 @@
-# MapExample
+# Safeguard
 
-## Instructions to run
+[Safeguard: Demo #1](https://vimeo.com/217745646)
+[Safeguard: Demo #2](https://vimeo.com/217745744)
 
-1. Install Android Studio and the Android SDK: 
+[Final APK file] (https://github.com/eekowal/Safeguard/blob/master/safeguard-debug.apk)
 
-    [https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html)
-    
-    [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
+**Note**: The RSS feed in the demo is not active, and will always show an empty feed. Crime and weather views are active.
 
-2. Open Android Studio and the project:
-    
-    [Example video](https://www.dropbox.com/s/ueynhi0rpau08oc/download_and_open.mov?dl=0)
+# Testing the map server
+Below are some urls that you can use in your browser to view the overlays that are served by the tile server. 
 
-    Note: It may ask you to download some things. Download what it asks you to.
+### All crime data
+http://35.185.45.122/crime
 
-3. Create a virtual device or prepare your real device to run the app.
-    a. Creating and running app on an android virtual device. Note make sure it is running API 24.
-      * [https://developer.android.com/studio/run/emulator.html](https://developer.android.com/studio/run/emulator.html)
-      * [https://developer.android.com/studio/run/managing-avds.html](https://developer.android.com/studio/run/managing-avds.html)
-    
-    b. Setting your phone to debug mode.  Note make sure it's running Android 6.0 or higher.
-  
-     * [https://developer.android.com/studio/run/device.html](https://developer.android.com/studio/run/device.html)
-     * [Video example of creating AVD and running](https://www.dropbox.com/s/i3osmr1orgj8l57/create_avd_and_run.mov?dl=0)
-   
-4. [Final app](https://www.dropbox.com/s/lbsarlm2lf1y30n/mapexample_rev_720.mov?dl=0)
+### Crime data filtered by time of day
+http://35.185.45.122/crime/day
+http://35.185.45.122/crime/night
+
+### Crime data filtered by type and/or time of day
+http://35.185.45.122/crime/assault
+http://35.185.45.122/crime/assault/day
+http://35.185.45.122/crime/assault/night
+
+### Changing the zoom level
+http://35.185.45.122/crime/#14/38.8846/-76.8425
+
+### Single tiles
+http://35.185.45.122/crime/12/1173/1564@2x.png
+http://35.185.45.122/crime/12/1171/1564@2x.png
