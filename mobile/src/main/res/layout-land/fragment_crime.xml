@@ -11,11 +11,6 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent" />
 
-  <!--<fragment-->
-      <!--android:id="@+id/map"-->
-      <!--android:name="umd.project.safetymapexample.fragment.CustomMapFragment"-->
-      <!--android:layout_width="match_parent"-->
-      <!--android:layout_height="match_parent" />-->
 
   <LinearLayout
       android:layout_width="wrap_content"
@@ -26,18 +21,6 @@
       android:alpha=".98"
       android:orientation="vertical">
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_geofence"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:backgroundTint="@android:color/black"
-        android:clickable="true"
-        android:src="@drawable/ic_fence"
-        android:tint="@android:color/white"
-        app:borderWidth="0dp"
-        app:elevation="4dp"
-        app:fabSize="normal" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_layers"

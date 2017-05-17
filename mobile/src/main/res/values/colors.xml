@@ -8,6 +8,5 @@
   <color name="accent_material_dark">#e0e0e0</color>
   <color name="primary_material_dark">#c9000000</color>
   <color name="primary_dark_material_dark">#de000000</color>
-  <color name="secondary_text_material_dark">#bdbdbd</color>
-  <color name="background_material_dark">#000000</color>
+    <color name="background_material_dark">#000000</color>
 </resources>

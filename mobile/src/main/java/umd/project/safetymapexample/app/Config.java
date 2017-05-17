@@ -4,14 +4,18 @@ import android.Manifest;
 
 public class Config {
 
-  public static final String[] LOCATION_PERMISSION_GROUP = new String[] {
-      Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.WRITE_EXTERNAL_STORAGE
-  };
+    public static final String[] LOCATION_PERMISSION_GROUP = new String[]{
+            Manifest.permission.ACCESS_FINE_LOCATION
+    };
 
-  public static final float TILE_OVERLAY_ZINDEX = 20.0f;
+    public static final int LOCATION_REQUEST_CODE = 638;
 
-  public final static String TILE_PROVIDER_URL =
-      "https://firebasestorage.googleapis.com/v0/b/safetymap-a90dc.appspot.com/o/raster-tiles-test%s%s%s.png?alt=media&token=d85eb445-11f1-4c3c-a3b3-3222d47af17a";
+    public static final float TILE_OVERLAY_ZINDEX = 200.0f;
 
-  public static final int LOCATION_REQUEST_CODE = 638;
+    public static final String WEATHER_API_KEY = "db7644c1d871bc40c9c5c09e105fd149";
+
+    public static final String WEATHER_TILE_PROVIDER_URL = "http://tile.openweathermap.org/map";
+
+    public final static String CRIME_TILE_PROVIDER_URL = "http://35.185.45.122/crime";
+
 }

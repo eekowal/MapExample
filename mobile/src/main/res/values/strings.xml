@@ -1,6 +1,13 @@
 <resources>
-  <string name="app_name">SafetyNet</string>
+  <string name="app_name">Safeguard</string>
   <string name="debug_location_1">38.8345, -76.95</string>
   <string name="ok">Ok</string>
   <string name="cancel">Cancel</string>
+  <string name="car_theft">car_theft</string>
+  <string name="assault">assault</string>
+  <string name="sex_offense">sex_offense</string>
+  <string name="theft">theft</string>
+  <string name="temp">temp_new</string>
+  <string name="wind">wind_new</string>
+  <string name="rain">precipitation_new</string>
 </resources>
