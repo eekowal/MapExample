@@ -26,7 +26,7 @@
 
         <activity
             android:name=".activity.MainActivity"
-            android:label="Safeguard">
+            android:label="SafeGuard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">Safeguard</string>
+  <string name="app_name">SafeGuard</string>
   <string name="debug_location_1">38.8345, -76.95</string>
   <string name="ok">Ok</string>
   <string name="cancel">Cancel</string>
