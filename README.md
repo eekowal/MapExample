@@ -1,18 +1,18 @@
 # Safeguard
 
-Below is a link to a runnable apk and our demo videos.  If you have trouble with the apk, please let us know. 
+Below is a link to a runnable apk as well as our demo videos. If you have trouble running the apk, please let us know. 
 
-[APK](https://github.com/eekowal/Safeguard/blob/master/safeguard-debug.apk)
+[Safeguard: APK](https://github.com/eekowal/Safeguard/blob/master/safeguard-debug.apk)
 
 [Safeguard: Demo Video #1](https://vimeo.com/217745646)
 
 [Safeguard: Demo Video #2](https://vimeo.com/217745744)
 
 
-Note: Please note that the RSS feed in the bottom navigation bar is not implemented, and will always show an empty feed.  The crime and weather views described in the paper are implemented and displaying live data though. 
+**Note**: As described in the paper, the RSS feed in the bottom navigation bar is not implemented, and will always show an empty feed. The crime and weather views are implemented and live. 
 
 
-# Testing the map server
+## Testing the map server
 Below are some example urls that you can use in your browser to view the overlays served by our tile server. 
 
 ### All crime data
