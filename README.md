@@ -1,4 +1,4 @@
-# Safeguard
+# SafeGuard
 
 <ol >
 <img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--5.jpg" width="188"/>
@@ -7,11 +7,11 @@
 <img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--4.jpg" width="188"/>
 </ol>
 
-[Safeguard: APK](https://github.com/eekowal/Safeguard/blob/master/safeguard-debug.apk)
+[SafeGuard: APK](https://github.com/eekowal/Safeguard/blob/master/safeguard-debug.apk)
 
-[Safeguard: Demo Video #1](https://vimeo.com/217745646)
+[SafeGuard: Demo Video #1](https://vimeo.com/217745646)
 
-[Safeguard: Demo Video #2](https://vimeo.com/217745744)
+[SafeGuard: Demo Video #2](https://vimeo.com/217745744)
 
 
 **Note**: As described in the paper, the RSS feed in the bottom navigation bar is not implemented, and will always show an empty feed. The crime and weather views are implemented and live. 
