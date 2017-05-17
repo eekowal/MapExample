@@ -1,12 +1,17 @@
-# Safeguard
+# SafeGuard
 
-Below is a link to a runnable apk as well as our demo videos. If you have trouble running the apk, please let us know. 
+<ol >
+<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--5.jpg" width="188"/>
+<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--2.jpg" width="188"/>
+<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--3.jpg" width="188"/>
+<img src="https://github.com/eekowal/Safeguard/blob/master/screenshots/screenshot--4.jpg" width="188"/>
+</ol>
 
-[Safeguard: APK](https://github.com/eekowal/Safeguard/blob/master/safeguard-debug.apk)
+[SafeGuard: APK](https://github.com/eekowal/Safeguard/blob/master/safeguard-debug.apk)
 
-[Safeguard: Demo Video #1](https://vimeo.com/217745646)
+[SafeGuard: Demo Video #1](https://vimeo.com/217745646)
 
-[Safeguard: Demo Video #2](https://vimeo.com/217745744)
+[SafeGuard: Demo Video #2](https://vimeo.com/217745744)
 
 
 **Note**: As described in the paper, the RSS feed in the bottom navigation bar is not implemented, and will always show an empty feed. The crime and weather views are implemented and live. 
@@ -32,4 +37,3 @@ http://35.185.45.122/crime/#14/38.8846/-76.8425
 ### Single tiles
 http://35.185.45.122/crime/12/1173/1564@2x.png
 
-http://35.185.45.122/crime/12/1171/1564@2x.png
