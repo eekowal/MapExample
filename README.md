@@ -23,7 +23,7 @@ Below are some example urls that you can use in your browser to view the overlay
 ### All crime data
 http://35.185.45.122/crime
 
-### Crime data filtered by type and/or time os day
+### Crime data filtered by type and/or time of day
 
 http://35.185.45.122/crime/assault
 
